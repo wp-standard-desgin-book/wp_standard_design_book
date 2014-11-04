@@ -1,4 +1,4 @@
-CHAPTER04 LESSON12
+CHAPTER04 LESSON13
 
 ## WordPressにおける「ループ」を理解する
 
@@ -8,4 +8,20 @@ CHAPTER04 LESSON12
 
 ### 実習内容
 
-サイト名などbloginfoやタイトルタグなどを出力する / 画像やCSSなど外部ファイルのパスを出力する
+* 投稿部分の出力が出来るようになる
+
+### 作成ファイル
+
+* なし
+
+### 変更点
+
+* WordPress : ブログ記事(article01.html,article02.html)を投稿として表示
+* index.php : ループ部分の記述
+
+<?php
+
+if ( have_posts() ) :
+	while( have_posts() ) :
+		the_post();
+
