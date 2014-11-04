@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>ブログ記事一覧 | OzoneCafe</title>
+		<title>ブログ : 季節のショートケーキを販売致します。 | OzoneCafe</title>
 		<meta name="description" content="60年以上続くこの味を。名古屋市大曽根で楽しめる、本格的コーヒーショップ">
 		<meta name="keywords" content="大曽根,カフェ,名古屋,老舗,コーヒーショップ">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,7 @@
 
 	</head>
 
-	<body class="blog archive">
+	<body class="single">
 
 		<!-- ヘッダー -->
 		<header id="masthead" class="header">
@@ -81,108 +81,97 @@
 				<!-- メインカラム -->
 				<div id="main-content" class="l-main site-main">
 
-					<div class="content-area posts">
-						<div class="site-content" role="main">
+					<!-- 記事コンテンツ -->
+					<div id="primary" class="content-area posts">
+						<div id="content" class="site-content" role="main">
 
-							<section class="post blog-archive">
+							<article class="post hentry">
 
 								<!-- 記事 - ヘッダー -->
 								<header class="entry-header">
-									<h1 class="entry-title archive-title">
-										ブログ記事一覧
+									<h1 class="entry-title">
+										ブログ : 季節のショートケーキを販売致します。
 									</h1>
 								</header>
 
 								<!-- 記事 - コンテンツ -->
 								<div class="entry-content">
-									<article id="post-1" class="post hentry">
+									<div class="entry-meta">
 
-										<header class="entry-header">
+										<span class="author">
+											投稿者 : wp-standard-design-book
+										</span>
 
-											<h1 class="entry-title">
-												<a href="../blog/article01.html">サイトをオープンしました。</a>
-											</h1>
+										<span class="date">
+											<time class="entry-date">2014年9月22日</time>
+										</span>
 
-											<div class="entry-meta">
+										<span class="categories-links info">
+											<a href="#" rel="category">新着情報</a>
+										</span>
 
-												<span class="date">
-													<time class="entry-date">2014年9月22日</time>
-												</span>
+									</div>
 
-												<span class="categories-links info">
-													<a href="#" rel="category">新着情報</a>
-												</span>
-											</div>
-										</header>
+									<p>
+										<img src="../images/blog01-thumbnail01.png" alt="サイトを公開しました。">
+									</p>
+									<p>2015年2月10日に本Webサイトをオープンしました。
+										<br> WordCafe 最新情報、お役立ち情報を随時掲載していきます。</p>
 
-										<div class="entry-content">
-											<div class="thumbnail">
-												<img src="../images/blog01-thumbnail01.png" alt="サイト公開しました。">
-											</div>
-
-											<p>2015年2月10日に本Webサイトをオープンしました。
-												<br> WordCafe 最新情報、お役立ち情報を随時掲載していきます。</p>
-											</p>
-
-										</div>
-
-									</article>
-
-									<article id="post-2" class="post hentry">
-
-										<header class="entry-header">
-
-											<h1 class="entry-title">
-												<a href="../">季節のショートケーキを発売します。</a>
-											</h1>
-
-											<div class="entry-meta">
-
-												<span class="date">
-													<time class="entry-date">2014年9月22日</time>
-												</span>
-
-												<span class="categories-links limited">
-													<a href="#" rel="category">期間限定</a>
-												</span>
-											</div>
-
-										</header>
-
-										<div class="entry-content">
-											<div class="thumbnail">
-												<img src="../images/menu08-thumbnail01.png" alt="季節のショートケーキ">
-											</div>
-
-											<p>
-												2015年3月10日から4月10日までの1ヶ月間限定として、季節のショートケーキを販売致します。
-												<br> 通常のチーズケーキより、約2倍チーズを使用しお作りするスベシャルメニューです。
-											</p>
-
-										</div>
-
-									</article>
-
-									<nav class="navigation paging-navigation" role="navigation">
+									<nav class="navigation post-navigation" role="navigation">
 										<div class="nav-links">
-											<div class="nav-previous">
-												<a href="../">
-													<span class="meta-nav">←</span> 古い投稿
-												</a>
-											</div>
-											<div class="nav-next">
-												<a href="../">
-													新しい投稿
-													<span class="meta-nav">→</span>
-												</a>
-											</div>
+											<a href="article01.html" rel="prev">
+												<span class="meta-nav">←</span> 前の記事へ</a>
 										</div>
+										<!-- .nav-links -->
 									</nav>
+
+									<div id="comments" class="comments-area">
+
+										<div id="respond">
+											<h3 id="reply-title">コメントを残す
+											</h3>
+											<form action="?" method="post" novalidate="">
+												<p class="comment-notes">メールアドレスが公開されることはありません。
+													<span class="required">*</span>が付いている欄は必須項目です</p>
+												<p>
+													<label for="author">名前
+														<span class="required">*</span>
+													</label>
+													<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+												</p>
+												<p>
+													<label for="email">メールアドレス
+														<span class="required">*</span>
+													</label>
+													<input id="email" name="email" type="email" value="" size="30" aria-required="true">
+												</p>
+												<p>
+													<label for="url">ウェブサイト</label>
+													<input id="url" name="url" type="url" value="" size="30">
+												</p>
+												<p>
+													<label for="comment">コメント</label>
+													<textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+												</p>
+												<p>次の
+													<abbr title="HyperText Markup Language">HTML</abbr>タグと属性が使えます:
+													<code>&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;strike&gt; &lt;strong&gt;</code>
+												</p>
+												<p class="form-submit">
+													<input name="submit" type="submit" id="submit" value="コメントを送信">
+												</p>
+											</form>
+										</div>
+										<!-- #respond -->
+
+									</div>
 
 								</div>
 
-							</section>
+							</article>
 						</div>
+						<!-- /記事コンテンツここまで -->
 					</div>
 
 					<!-- /メインカラム -->
