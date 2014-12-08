@@ -418,14 +418,11 @@ table th {
     width: 100%;
     max-width: 100%;
     padding-top: 0;
-<<<<<<< HEAD
 }
 .l-one-column .entry-header .entry-title,
 .l-one-column .entry-header .blog .archive-title,
 .blog .l-one-column .entry-header .archive-title {
     background-image: url(images/common/bg-entry-title-one-column.png);
-=======
->>>>>>> a4f0c9eee0606d484727b05648fe257381627dcd
 }
 
 /*------------------------------------*\
@@ -493,6 +490,7 @@ table th {
         text-align: center;
     }
 }
+.header-navigation span,
 .header-navigation a {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -529,17 +527,6 @@ table th {
     border-top: 0;
     background-color: #f5f5f5;
 }
-@media screen and (max-width: 640px) {
-    .header-navigation .sub-menu {
-        position: static;
-
-        overflow: hidden;
-        clip: inherit;
-
-        width: inherit;
-        height: inherit;
-    }
-}
 .header-navigation .sub-menu li {
     display: block;
     overflow: hidden;
@@ -565,16 +552,17 @@ table th {
     top: 0;
     left: 100%;
 
+    width: 100%;
+
     border-left: 0;
 }
 
-.header-navigation li:hover > ul,
-.header-navigation ul li:hover > ul,
-.header-navigation .focus > ul {
+.header-navigation li:hover > .sub-menu,
+.header-navigation .sub-menu li:hover > .sub-menu,
+.header-navigation .focus > .sub-menu {
     overflow: visible;
     clip: inherit;
 
-    width: inherit;
     height: inherit;
 }
 
@@ -894,8 +882,8 @@ textarea {
 /* 8.1 投稿タイトル
 	 -----------------------------------*/
 .entry-header .entry-title,
-.entry-header .archive .archive-title,
-.archive .entry-header .archive-title {
+.entry-header .blog .archive-title,
+.blog .entry-header .archive-title {
     font-size: 24px;
 
     margin-top: 0;
@@ -1158,15 +1146,11 @@ table.contact-form textarea {
 
 /* 8.14 ブログ一覧ページ
 	 -----------------------------------*/
-<<<<<<< HEAD
 .blog {
-=======
-.archive {
->>>>>>> a4f0c9eee0606d484727b05648fe257381627dcd
     /* 8.14 ブログ一覧 タイトル
   	 -----------------------------------*/
 }
-.archive .hentry {
+.blog .hentry {
     overflow: hidden;
 
     margin-bottom: 24px;
@@ -1174,11 +1158,11 @@ table.contact-form textarea {
 
     border: 1px solid #e8e8e8;
 }
-.archive .entry-header {
+.blog .entry-header {
     overflow: hidden;
 }
-.archive .entry-title,
-.archive .archive-title {
+.blog .entry-title,
+.blog .archive-title {
     font-size: 16px;
 
     float: left;
@@ -1192,39 +1176,32 @@ table.contact-form textarea {
     background: none;
 }
 @media screen and (max-width: 640px) {
-    .archive .entry-title,
-    .archive .archive-title {
+    .blog .entry-title,
+    .blog .archive-title {
         float: none;
     }
 }
-.archive .entry-title a,
-.archive .archive-title a {
+.blog .entry-title a,
+.blog .archive-title a {
     text-decoration: none;
 
     color: #694329;
-<<<<<<< HEAD
 }
 .blog .entry-title a:hover,
 .blog .archive-title a:hover {
     color: #8e5a37;
-=======
->>>>>>> a4f0c9eee0606d484727b05648fe257381627dcd
 }
-.archive .entry-title a:hover,
-.archive .archive-title a:hover {
-    color: #8e5a37;
-}
-.archive .entry-content {
+.blog .entry-content {
     overflow: hidden;
     /* 8.15 ブログ一覧 サムネイル画像
   	 -----------------------------------*/
 }
-.archive .entry-content .entry-header {
+.blog .entry-content .entry-header {
     display: inline-block;
 
     width: 100%;
 }
-.archive .entry-content .thumbnail {
+.blog .entry-content .thumbnail {
     float: left;
 
     max-width: 175px;
@@ -1246,13 +1223,9 @@ table.contact-form textarea {
 .entry-meta .author {
     float: left;
 
-<<<<<<< HEAD
     padding-left: 28px;
 
     background-image: url(images/icons/icon-author.png);
-=======
-    background-image: url(images/icons/icon-date.png);
->>>>>>> a4f0c9eee0606d484727b05648fe257381627dcd
     background-repeat: no-repeat;
     background-position: 8px center;
 }
@@ -1262,11 +1235,7 @@ table.contact-form textarea {
     border: 1px solid #e8e8e8;
     background-image: url(images/icons/icon-date.png);
     background-repeat: no-repeat;
-<<<<<<< HEAD
     background-position: 5px center;
-=======
-    background-position: 8px center;
->>>>>>> a4f0c9eee0606d484727b05648fe257381627dcd
 }
 .entry-meta .categories-links {
     margin-left: 16px;
@@ -1475,13 +1444,9 @@ table.contact-form textarea {
     text-align: center;
 }
 .comments-area p {
-<<<<<<< HEAD
     overflow: hidden;
 
     margin-bottom: 1em;
-=======
-    clear: both;
->>>>>>> a4f0c9eee0606d484727b05648fe257381627dcd
 }
 .comments-area p label {
     float: left;
