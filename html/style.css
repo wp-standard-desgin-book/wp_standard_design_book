@@ -88,15 +88,18 @@ body {
 /* 0.2 リンク
    -----------------------------------*/
 a {
+    color: #694329;
     background: transparent;
 }
 
 a:focus {
+    color: #442c1b;
     outline: 0 none;
 }
 
 a:active,
 a:hover {
+    color: #8e5a37;
     outline: 0;
 }
 
@@ -200,6 +203,7 @@ sub {
 
 img {
     max-width: 100%;
+    height: auto;
 
     vertical-align: top;
 
@@ -405,14 +409,20 @@ table th {
 /* 1.5 ワンカラム時の設定
    -----------------------------------*/
 .l-one-column {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 
     background: #fcfcfc;
 }
 .l-one-column .l-main {
     width: 100%;
     max-width: 100%;
+    padding-top: 0;
+}
+.l-one-column .entry-header .entry-title,
+.l-one-column .entry-header .blog .archive-title,
+.blog .l-one-column .entry-header .archive-title {
+    background-image: url(images/common/bg-entry-title-one-column.png);
 }
 
 /*------------------------------------*\
@@ -461,18 +471,18 @@ table th {
     }
 }
 
-.nav-menu li {
+.header-navigation li {
     position: relative;
 
     display: inline-block;
 
     vertical-align: top;
 }
-.nav-menu li:hover {
+.header-navigation li:hover {
     background-color: #f5f5f5;
 }
 @media screen and (max-width: 640px) {
-    .nav-menu li {
+    .header-navigation li {
         float: none;
 
         width: 49%;
@@ -480,7 +490,7 @@ table th {
         text-align: center;
     }
 }
-.nav-menu a {
+.header-navigation a {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     line-height: 2.8em;
@@ -497,11 +507,11 @@ table th {
 
     color: #686868;
     border-radius: 2px;
-    background-image: url(images/arrow-middle.png);
+    background-image: url(images/icons/arrow-middle.png);
     background-repeat: no-repeat;
     background-position: 12px 14px;
 }
-.nav-menu .sub-menu {
+.header-navigation .sub-menu {
     position: absolute;
     z-index: 99999;
     left: 0;
@@ -517,7 +527,7 @@ table th {
     background-color: #f5f5f5;
 }
 @media screen and (max-width: 640px) {
-    .nav-menu .sub-menu {
+    .header-navigation .sub-menu {
         position: static;
 
         overflow: hidden;
@@ -527,7 +537,7 @@ table th {
         height: inherit;
     }
 }
-.nav-menu .sub-menu li {
+.header-navigation .sub-menu li {
     display: block;
     overflow: hidden;
 
@@ -535,29 +545,29 @@ table th {
 
     text-align: left;
 }
-.nav-menu .sub-menu li a {
+.header-navigation .sub-menu li a {
     display: block;
 }
-.nav-menu .sub-menu li a:hover {
+.header-navigation .sub-menu li a:hover {
     background-color: #fff;
 }
 @media screen and (max-width: 640px) {
-    .nav-menu .sub-menu {
+    .header-navigation .sub-menu {
         float: none;
 
         width: 100%;
     }
 }
-.nav-menu .sub-menu ul {
+.header-navigation .sub-menu ul {
     top: 0;
     left: 100%;
 
     border-left: 0;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu ul li:hover > ul,
-.nav-menu .focus > ul {
+.header-navigation li:hover > ul,
+.header-navigation ul li:hover > ul,
+.header-navigation .focus > ul {
     overflow: visible;
     clip: inherit;
 
@@ -650,6 +660,13 @@ table th {
     border: 1px solid #e8e8e8;
     border-radius: 50%;
 }
+.menu-block .menu-more a {
+    padding: 2px;
+}
+.menu-block .menu-more a:hover {
+    opacity: 0.8;
+    color: #fff;
+}
 
 /* 4.2 メニュー名
  -------------------------------------*/
@@ -658,12 +675,12 @@ table th {
 }
 
 /*------------------------------------*\
-  5.0 サイドバー
-  - - -
-  サイドバーのスタイル指定
+	5.0 サイドバー
+	- - -
+	サイドバーのスタイル指定
 \*------------------------------------*/
 /* 5.1 ウィジェットタイトル
-   -----------------------------------*/
+	 -----------------------------------*/
 .widget-title {
     font-size: 18px;
     font-weight: normal;
@@ -672,27 +689,27 @@ table th {
     margin-bottom: 16px;
 
     color: #454545;
-    background-image: url(images/bg-widget-title.png);
+    background-image: url(images/common/bg-widget-title.png);
     background-repeat: no-repeat;
     background-position: bottom;
 }
 
 /* 5.2 ウィジェット
-   -----------------------------------*/
+	 -----------------------------------*/
 .widget {
     margin-bottom: 24px;
 }
 
 /* 5.2 カテゴリ一覧ウィジェット
-   -----------------------------------*/
-.widget_category ul {
+	 -----------------------------------*/
+.widget_categories ul {
     border: 1px solid #e8e8e8;
     border-bottom: none;
 }
-.widget_category ul li {
+.widget_categories ul li {
     border-bottom: 1px solid #e8e8e8;
 }
-.widget_category ul li a {
+.widget_categories ul li a {
     font-weight: bold;
     line-height: 3.4em;
 
@@ -703,19 +720,19 @@ table th {
     text-decoration: none;
 
     color: #454545;
-    background-image: url(images/arrow-large.png);
+    background-image: url(images/icons/arrow-large.png);
     background-repeat: no-repeat;
     background-position: 220px center;
 }
-.widget_category ul li a:hover {
+.widget_categories ul li a:hover {
     background-color: #f5f5f5;
 }
-.widget_category ul li a:active {
+.widget_categories ul li a:active {
     background-color: #e8e8e8;
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 640px) {
-    .widget_category {
+    .widget_categories {
         width: 250px;
         margin-right: auto;
         margin-left: auto;
@@ -775,7 +792,7 @@ table th {
     text-decoration: none;
 
     color: #454545;
-    background-image: url(images/arrow-small.png);
+    background-image: url(images/icons/arrow-small.png);
     background-repeat: no-repeat;
     background-position: 5px center;
 }
@@ -807,6 +824,7 @@ input[type=email],
 input[type=url],
 input[type=password],
 textarea {
+    font-size: 14px;
     line-height: 1.7em;
 
     vertical-align: middle;
@@ -816,13 +834,14 @@ textarea {
 
 /* 7.1 検索フォーム
 	 -----------------------------------*/
-.form-control input[type=search] {
+#searchform #s {
     width: 180px;
     margin-right: -5px;
 }
-.form-control .search-submit {
+#searchform #searchsubmit {
+    font-size: 14px;
     font-weight: normal;
-    line-height: 1.7em;
+    line-height: 1.6em;
 
     width: 70px;
     margin-right: 0;
@@ -859,18 +878,18 @@ textarea {
     text-decoration: none;
 
     color: #fff;
-    background-image: url(images/bg-btn-more.png);
+    background-image: url(images/common/bg-btn-more.png);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 /*------------------------------------*\
-  8.0 投稿関連
-  - - -
-  投稿コンテンツ内のスタイル指定
+	8.0 投稿関連
+	- - -
+	投稿コンテンツ内のスタイル指定
 \*------------------------------------*/
 /* 8.1 投稿タイトル
-   -----------------------------------*/
+	 -----------------------------------*/
 .entry-header .entry-title,
 .entry-header .blog .archive-title,
 .blog .entry-header .archive-title {
@@ -880,15 +899,15 @@ textarea {
     margin-bottom: 24px;
     padding-bottom: 16px;
 
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 
-    background-image: url(images/bg-entry-header.png);
+    background-image: url(images/common/bg-entry-header.png);
     background-repeat: no-repeat;
     background-position: left bottom;
 }
 
 /* 8.2 見出しh1
-   -----------------------------------*/
+	 -----------------------------------*/
 .entry-content h1 {
     font-size: 24px;
 
@@ -898,13 +917,13 @@ textarea {
 
     letter-spacing: 4px;
 
-    background-image: url(images/bg-entry-header.png);
+    background-image: url(images/common/bg-entry-header.png);
     background-repeat: no-repeat;
     background-position: left bottom;
 }
 
 /* 8.3 見出しh2
-   -----------------------------------*/
+	 -----------------------------------*/
 .entry-content h2 {
     font-size: 20px;
     line-height: 1.5em;
@@ -918,7 +937,7 @@ textarea {
 }
 
 /* 8.4 見出しh3
-   -----------------------------------*/
+	 -----------------------------------*/
 .entry-content h3 {
     font-size: 18px;
     line-height: 27px;
@@ -947,7 +966,7 @@ textarea {
 }
 
 /* 8.5 見出しh4
-   -----------------------------------*/
+	 -----------------------------------*/
 .entry-content h4 {
     font-size: 16px;
 
@@ -964,21 +983,21 @@ textarea {
 }
 
 /* 8.6 見出しh5
-   -----------------------------------*/
+	 -----------------------------------*/
 .entry-content h5 {
     font-size: 14px;
     font-weight: 700;
 }
 
 /* 8.7 見出しh6
-   -----------------------------------*/
+	 -----------------------------------*/
 .entry-content h6 {
     font-size: 14px;
     font-weight: 100;
 }
 
 /* 8.7 段落
-   -----------------------------------*/
+	 -----------------------------------*/
 .entry-content p {
     line-height: 2em;
 
@@ -988,7 +1007,7 @@ textarea {
 
 .entry-content {
     /* 8.8 定義リスト
-     -----------------------------------*/
+  	 -----------------------------------*/
 }
 .entry-content dl dt {
     font-weight: bold;
@@ -1006,14 +1025,14 @@ textarea {
 
 .entry-content {
     /* 8.9 小さいテキスト
-     -----------------------------------*/
+  	 -----------------------------------*/
 }
 .entry-content small {
     font-size: 0.8em;
 }
 
 /* 8.10 強調テキスト
-   -----------------------------------*/
+	 -----------------------------------*/
 .entry-content strong {
     font-weight: bold;
 
@@ -1021,7 +1040,7 @@ textarea {
 }
 
 /* 8.11 コードプレビュー
-   -----------------------------------*/
+	 -----------------------------------*/
 .entry-content pre {
     padding: 16px;
 
@@ -1036,7 +1055,7 @@ textarea {
 }
 
 /* 8.12 テーブル
-   -----------------------------------*/
+	 -----------------------------------*/
 .entry-content table th,
 .entry-content table td {
     line-height: 2em;
@@ -1053,8 +1072,36 @@ textarea {
     background: #f7f7f7;
 }
 
-/* 8.13 お問い合わせフォーム
-   -----------------------------------*/
+/* 8.13 サムネイル画像
+	 -----------------------------------*/
+.entry-content .thumbnail {
+    margin-bottom: 2em;
+}
+
+.entry-footer span {
+    display: inline-block;
+
+    padding: 2px 16px;
+    padding-left: 28px;
+
+    border: 1px solid #e8e8e8;
+}
+.entry-footer span a {
+    text-decoration: none;
+}
+.entry-footer span.comments-link {
+    background-image: url(images/icons/icon-chat.png);
+    background-repeat: no-repeat;
+    background-position: 7px center;
+}
+.entry-footer span.tag-links {
+    background-image: url(images/icons/icon-tag.png);
+    background-repeat: no-repeat;
+    background-position: 7px center;
+}
+
+/* 8.14 お問い合わせフォーム
+	 -----------------------------------*/
 table.contact-form {
     margin-bottom: 2em;
 
@@ -1066,6 +1113,7 @@ table.contact-form th {
     padding-bottom: 1.3em;
     padding-left: 2.6em;
 
+    text-align: left;
     vertical-align: top;
 }
 table.contact-form td {
@@ -1106,10 +1154,10 @@ table.contact-form textarea {
 }
 
 /* 8.14 ブログ一覧ページ
-   -----------------------------------*/
+	 -----------------------------------*/
 .blog {
     /* 8.14 ブログ一覧 タイトル
-     -----------------------------------*/
+  	 -----------------------------------*/
 }
 .blog .hentry {
     overflow: hidden;
@@ -1146,12 +1194,16 @@ table.contact-form textarea {
 .blog .archive-title a {
     text-decoration: none;
 
-    color: #454545;
+    color: #694329;
+}
+.blog .entry-title a:hover,
+.blog .archive-title a:hover {
+    color: #8e5a37;
 }
 .blog .entry-content {
     overflow: hidden;
     /* 8.15 ブログ一覧 サムネイル画像
-     -----------------------------------*/
+  	 -----------------------------------*/
 }
 .blog .entry-content .entry-header {
     display: inline-block;
@@ -1166,25 +1218,42 @@ table.contact-form textarea {
 }
 
 /* 8.16 投稿メタ情報
-   -----------------------------------*/
+	 -----------------------------------*/
 .entry-meta {
     margin-bottom: 24px;
 
     text-align: right;
 }
+.entry-meta span {
+    display: inline-block;
+
+    padding: 2px 16px;
+}
 .entry-meta .author {
     float: left;
+
+    padding-left: 28px;
+
+    background-image: url(images/icons/icon-author.png);
+    background-repeat: no-repeat;
+    background-position: 8px center;
 }
 .entry-meta .date {
-    padding: 4px 16px;
+    padding-left: 28px;
 
     border: 1px solid #e8e8e8;
+    background-image: url(images/icons/icon-date.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
 }
 .entry-meta .categories-links {
     margin-left: 16px;
-    padding: 4px 16px;
+    padding-left: 28px;
 
     border: 1px solid #e8e8e8;
+    background-image: url(images/icons/icon-category.png);
+    background-repeat: no-repeat;
+    background-position: 8px center;
 }
 .entry-meta .categories-links a {
     font-size: 12px;
@@ -1193,11 +1262,14 @@ table.contact-form textarea {
 
     color: #fff;
 }
+.entry-meta .categories-links a:hover {
+    opacity: 0.8;
+}
 .entry-meta .categories-links.limited {
-    background: #b5ad55;
+    background-color: #b5ad55;
 }
 .entry-meta .categories-links.info {
-    background: #8b6c6c;
+    background-color: #8b6c6c;
 }
 @media screen and (max-width: 640px) {
     .entry-meta .author {
@@ -1217,7 +1289,7 @@ table.contact-form textarea {
 }
 
 /* 8.17 投稿ナビゲーション、一覧ページネーション
-   -----------------------------------*/
+	 -----------------------------------*/
 .post-navigation,
 .paging-navigation {
     font-size: 14px;
@@ -1231,7 +1303,7 @@ table.contact-form textarea {
 
 .post-navigation .nav-links,
 .paging-navigation .nav-links {
-    margin: 0 auto;
+    margin: 0 7px;
 }
 .post-navigation .nav-links a,
 .paging-navigation .nav-links a {
@@ -1302,11 +1374,11 @@ table.contact-form textarea {
 }
 
 /* 8.18 メニュー詳細 コンテンツ
-   -----------------------------------*/
-.menu-content {
+	 -----------------------------------*/
+.menu-detail {
     overflow: hidden;
 }
-.menu-content .menu-thumbnail {
+.menu-detail .menu-thumbnail {
     float: left;
 
     width: 256px;
@@ -1315,26 +1387,26 @@ table.contact-form textarea {
 
     border: 1px solid #e8e8e8;
 }
-.menu-content .menu-thumbnail img {
+.menu-detail .menu-thumbnail img {
     max-width: 100%;
 }
 @media screen and (max-width: 940px) {
-    .menu-content .menu-thumbnail {
+    .menu-detail .menu-thumbnail {
         float: none;
 
         width: 100%;
     }
 }
-.menu-content .menu-detail {
+.menu-detail .menu-content {
     float: right;
 
     width: 431px;
 }
-.menu-content .menu-detail p {
-    margin-bottom: 48px;
+.menu-detail .menu-content p {
+    margin-bottom: 2em;
 }
 @media screen and (max-width: 940px) {
-    .menu-content .menu-detail {
+    .menu-detail .menu-content {
         float: none;
 
         width: 100%;
@@ -1356,35 +1428,119 @@ table.contact-form textarea {
 
 /* 9.2 コメントフォーム フォーム関連
    -----------------------------------*/
-#comments {
-    padding: 16px;
+.comments-area {
+    margin-top: 1em;
+    padding: 0 16px 16px;
 
     border: 1px solid #e8e8e8;
 }
-#comments input[type=text],
-#comments input[type=url],
-#comments input[type=email],
-#comments textarea {
+.comments-area input[type=text],
+.comments-area input[type=url],
+.comments-area input[type=email] {
+    float: right;
+
     width: 430px;
 }
-#comments label {
+.comments-area label {
     display: inline-block;
 
     min-width: 230px;
 }
-#comments .form-allowed-tags {
+.comments-area .form-allowed-tags {
     font-size: 12px;
 }
-#comments .form-submit {
+.comments-area .form-submit {
     text-align: center;
 }
+.comments-area p {
+    overflow: hidden;
+
+    margin-bottom: 1em;
+}
+.comments-area p label {
+    float: left;
+}
+.comments-area p small {
+    font-size: 0.8em;
+}
+.comments-area textarea {
+    width: 100%;
+    margin-bottom: 1em;
+}
 @media screen and (max-width: 640px) {
-    #comments input[type=text],
-    #comments input[type=url],
-    #comments input[type=email],
-    #comments textarea {
+    .comments-area input[type=text],
+    .comments-area input[type=url],
+    .comments-area input[type=email],
+    .comments-area textarea {
         width: 100%;
     }
+}
+.comments-area #submit {
+    display: block;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#respond h3 {
+    clear: both;
+}
+
+.comment-author {
+    left: 0;
+
+    float: left;
+
+    margin-right: 30px;
+}
+
+.commentlist {
+    padding-left: 0;
+
+    list-style: none;
+}
+.commentlist li {
+    position: relative;
+
+    margin-bottom: 1em;
+}
+.commentlist .children {
+    margin-left: 1.8em;
+}
+.commentlist .children .comment-body {
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+
+    border-top: 1px solid #e8e8e8;
+}
+.commentlist .comment-body {
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+.commentlist .comment-reply-link {
+    font-size: 0.8em;
+
+    display: inline-block;
+
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+
+    text-decoration: none;
+
+    color: #fff;
+    border: 1px solid #8e5a37;
+    background: #694329;
+}
+.commentlist .comment-meta {
+    display: inline;
+}
+.commentlist .comment-meta + p {
+    display: inline;
+}
+.commentlist .comment-meta + p + .reply {
+    display: inline;
 }
 
 /*------------------------------------*\
@@ -1489,12 +1645,24 @@ a img.aligncenter {
 }
 
 /*------------------------------------*\
-  11.0 トップページ
+	11.0 トップページ
 \*------------------------------------*/
 /* 11.1 メインビジュアル
-   -----------------------------------*/
+	 -----------------------------------*/
 .visual .container {
     position: relative;
+}
+.visual img {
+    display: block;
+
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (max-width: 640px) {
+    .visual img {
+        max-width: 100%;
+    }
 }
 .visual .site-desctiption {
     font-size: 20px;
@@ -1524,9 +1692,12 @@ a img.aligncenter {
 }
 
 /* 11.2 トップページ/バナー
-   -----------------------------------*/
+	 -----------------------------------*/
 .home-banner {
     overflow: hidden;
+
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 .home-banner li {
     display: block;
