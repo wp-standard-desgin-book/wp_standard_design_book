@@ -99,90 +99,49 @@
 
 						<!-- ▼ブログ記事一覧 : 開始 -->
 
-						<!--▼一記事目 : 開始-->
-						<article id="post-1" class="post hentry">
+						<?php if ( have_posts() ) : //もし、記事が1件以上あったら
+							while ( have_posts() ) : //記事の表示条件を満たす間は繰り返す
+								the_post(); //データ1件分を取り出して渡す ?>
 
-							<header class="entry-header">
+								<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+									<header class="entry-header">
+										<h1 class="entry-title">
+											<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+										</h1>
+										<div class="entry-meta">
+											<span class="date">
+												<time class="entry-date"><?php the_time( 'Y年n月j日' ); ?></time>
+											</span>
+											<span class="categories-links info">
+												<?php the_category( ',' ); ?>
+											</span>
+										</div>
+									</header>
+									<div class="entry-content">
+										<div class="thumbnail">
+											<img src="../images/blog01-thumbnail01.png" alt="サイト公開しました。">
+										</div>
+										<?php the_content( '&raquo;詳しく見る' ); ?>
+									</div>
+								</article>
 
-								<h1 class="entry-title"><a href="<?php echo esc_url( home_url( '/blog/article01.html' ) ); ?>">サイトをオープンしました。</a>
-								</h1>
-
-								<div class="entry-meta">
-
-									<span class="date"><time class="entry-date">2014年9月22日</time></span>
-
-									<span class="categories-links info"><a href="#" rel="category">新着情報</a></span>
-								</div>
-
-							</header>
-							<!--/.entry-header-->
-
-							<div class="entry-content">
-								<div class="thumbnail">
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/content/article01-thumbnail01.png" alt="サイト公開しました。">
-								</div>
-
-								<p>2015年2月10日に本Webサイトをオープンしました。
-									<br> Ozone Cafe 最新情報、お役立ち情報を随時掲載していきます。</p>
-								</p>
-
-							</div>
-							<!--/.entry-content-->
-
-						</article>
-						<!--▲一記事目 : 終了-->
-
-						<!--▼二記事目 : 開始-->
-						<article id="post-2" class="post hentry">
-
-							<header class="entry-header">
-
-								<h1 class="entry-title"><a href="<?php echo esc_url( home_url( '/blog/article02.html' ) ); ?>">季節のショートケーキを発売します。</a>
-								</h1>
-
-								<div class="entry-meta">
-
-									<span class="date"><time class="entry-date">2014年9月22日</time></span>
-
-									<span class="categories-links limited"><a href="#" rel="category">期間限定</a></span>
-
-								</div>
-								<!--/.entry-meta-->
-
-							</header>
-							<!--/.entry-header-->
-
-							<div class="entry-content">
-
-								<div class="thumbnail">
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/content/menu08-thumbnail01.png" alt="季節のショートケーキ">
-								</div>
-
-								<p>1ヶ月間限定として、季節のショートケーキを販売致します。
-									<br>通常のショートケーキとことなり、季節のフルーツをふんだんに使用しています。</p>
-
-							</div>
-							<!--/.entry-content-->
-
-							<footer class="entry-footer">
-								<span class="comments-link"><a href="#">2件のコメント</a></span>
-								<span class="tag-links"><a href="#" rel="tag">ケーキ</a></span>
-							</footer>
-
-						</article>
-						<!--▲二記事目 : 開始-->
+						<?php endwhile; //投稿ループ終了 ?>
+						<?php else: //もし、表示すべき記事がなかったら ?>
+							<p>まだ記事はありません。</p>
+						<?php endif; //条件分岐終了 ?>
 
 						<!--▼ ページネーション : 開始-->
 						<nav class="navigation paging-navigation" role="navigation">
 							<div class="nav-links">
 								<div class="nav-previous">
-									<a href="../"><span class="meta-nav">←</span> 古い投稿</a>
+									<?php previous_posts_link( '←前のページへ' ); ?>
 								</div>
 								<div class="nav-next">
-									<a href="../">新しい投稿 <span class="meta-nav">→</span></a>
+									<?php next_posts_link( '次のページへ→' ); ?>
 								</div>
 							</div>
 						</nav>
+
 						<!--▲ ページネーション : 終了-->
 
 						<!-- ▲ブログ記事一覧 : 終了 -->
