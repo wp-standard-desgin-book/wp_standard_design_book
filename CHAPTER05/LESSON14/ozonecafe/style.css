@@ -436,7 +436,7 @@ table th {
 }
 
 /*------------------------------------*\
-    2.0 ヘッダー
+		2.0 ヘッダー
 \*------------------------------------*/
 .header {
     font-size: 14px;
@@ -464,7 +464,7 @@ table th {
 }
 
 /*------------------------------------*\
-    2.1 グローバルナビゲーション
+		2.1 グローバルナビゲーション
 \*------------------------------------*/
 .header-navigation {
     position: relative;
@@ -1102,6 +1102,10 @@ textarea {
     background-position: 7px center;
 }
 .entry-footer span.tag-links {
+    min-height: 29px;
+
+    vertical-align: bottom;
+
     background-image: url(images/icons/icon-tag.png);
     background-repeat: no-repeat;
     background-position: 7px center;
