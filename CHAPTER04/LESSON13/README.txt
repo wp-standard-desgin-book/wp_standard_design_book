@@ -19,9 +19,4 @@ CHAPTER04 LESSON13
 * WordPress : ブログ記事(article01.html,article02.html)を投稿として表示
 * index.php : ループ部分の記述
 
-<?php
-
-if ( have_posts() ) :
-	while( have_posts() ) :
-		the_post();
 

@@ -1,6 +1,6 @@
-CHAPTER04 LESSON11
+CHAPTER05 LESSON14
 
-## ファイルをWordPressテーマとして認識させる
+## 共通部分をまとめる
 
 ### 講義内容
 

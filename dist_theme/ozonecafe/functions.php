@@ -63,52 +63,50 @@ add_action( 'widgets_init', 'ozonecafe_custom_sidebar' );
 /**
 * メニュー投稿タイプを追加
 */
-function ozonecafe_register_post_type() {
+function custom_register_post_type() {
 
 	$labels = array(
-		'name'                => 'メニュー',
-		'singular_name'       => 'メニュー',
-		'add_new'             => '新しいメニューを追加',
-		'add_new_item'        => '新しいメニューを追加',
-		'edit_item'           => 'メニューを編集',
-		'new_item'            => '新しいメニュー',
-		'view_item'           => 'メニューを見る',
-		'search_items'        => 'メニューを検索',
-		'not_found'           => 'メニューが見つかりませんでした',
-		'not_found_in_trash'  => 'ゴミ箱の中にメニューが見つかりませんでした。',
-		'parent_item_colon'   => 'メニュー:',
-		'menu_name'           => 'メニュー',
+		'name'                => 'メニュー', // 投稿タイプの名称
+		'singular_name'       => 'メニュー', // 名称の一人称
+		'add_new'             => '新しいメニューを追加',  // 管理画面でのラベル
+		'add_new_item'        => '新しいメニューを追加', // 管理画面でのラベル
+		'edit_item'           => 'メニューを編集', // 管理画面でのラベル
+		'new_item'            => '新しいメニュー', // 管理画面でのラベル
+		'view_item'           => 'メニューを見る', // 管理画面でのラベル
+		'search_items'        => 'メニューを検索', // 管理画面でのラベル
+		'not_found'           => 'メニューが見つかりませんでした', // 管理画面でのラベル
+		'not_found_in_trash'  => 'ゴミ箱の中にメニューが見つかりませんでした。', // 管理画面でのラベル
+		'parent_item_colon'   => 'メニュー:', // 管理画面でのラベル
+		'menu_name'           => 'メニュー', // 管理画面のサイド管理メニューに表示されるラベル
 	);
 
 	$args = array(
 		'labels'              => $labels,
-		'hierarchical'        => false,
-		'description'         => 'description',
-		'taxonomies'          => array( '' ),
-		'public'              => true,
-		'show_ui'             => true,
-		'show_in_menu'        => true,
-		'show_in_admin_bar'   => true,
-		'menu_position'       => 4,
-		'menu_icon'           => null,
-		'show_in_nav_menus'   => true,
-		'publicly_queryable'  => true,
-		'exclude_from_search' => false,
-		'has_archive'         => true,
-		'query_var'           => true,
-		'can_export'          => true,
-		'rewrite'             => true,
-		'capability_type'     => 'post',
+		'hierarchical'        => false, // ページに持たせるか
+		'description'         => 'description', // 投稿タイプの説明文
+		'taxonomies'          => array( '' ), // 投稿タイプに登録するタクソノミーのスラッグ
+		'public'              => true, // 公開するか
+		'show_ui'             => true, // 管理画面で投稿UIを表示するか
+		'show_in_menu'        => true, // 管理画面サイド管理メニューに表示するか
+		'show_in_admin_bar'   => true, // 管理バーに表示するか
+		'menu_position'       => 4, // 管理画面サイド管理メニューのボジション
+		'menu_icon'           => null, // 管理画面サイド監理メニューのアイコン
+		'show_in_nav_menus'   => true, // カスタムメニューの設定画面で表示するか
+		'publicly_queryable'  => true, // フロントエンドでpost_typeクエリが実行可能か
+		'exclude_from_search' => false, // 検索結果から除外するかどうか
+		'has_archive'         => true, // アーカイブページをもたせるか
+		'query_var'           => true, // この投稿に使用する query_var キーの名前。
+		'can_export'          => true, // エクスポートさせるかどうか
+		'rewrite'             => true, // この投稿タイプのリライト方法
+		'capability_type'     => 'post', // 投稿タイプを操作出来る権限
 		'supports'            => array(
-			'title', 'editor', 'thumbnail',
-			'excerpt','custom-fields',
-			'revisions',
+			'title', 'editor', 'thumbnail', // 投稿編集時に表示するUI
 			)
 	);
 
 	register_post_type( 'menus', $args );
 }
-add_action( 'init', 'ozonecafe_register_post_type' );
+add_action( 'init', 'custom_register_post_type' );
 
 
 /**
