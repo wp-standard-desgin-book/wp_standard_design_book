@@ -4,7 +4,7 @@
 		<div id="main" class="l-two-column">
 
 			<div class="container">
-			<?php the_archive_title() ?>
+
 				<!-- ▼メインカラム : 開始-->
 				<div id="main-content" class="l-main site-main">
 
