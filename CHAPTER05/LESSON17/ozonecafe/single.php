@@ -33,8 +33,8 @@
 							<!--/.entry-content-->
 
 							<footer class="entry-footer">
-											<span class="comments-link"><a href="<?php comment_link(); ?>"><?php comments_number(); ?>件のコメント</a></span>
-											<span class="tag-links"><?php the_tags( ',' ); ?></span>
+								<span class="comments-link"><a href="<?php comment_link(); ?>"><?php comments_number(); ?>件のコメント</a></span>
+								<span class="tag-links"><?php the_tags( ',' ); ?></span>
 							</footer>
 
 						</article>
