@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>ブログ記事一覧 | Ozone Cafe</title>
+		<title>アーカイブ | Ozone Cafe</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" href="../style.css" />
@@ -84,7 +84,7 @@
 
 						<header class="entry-header">
 							<h1 class="entry-title archive-title">
-								ブログ記事一覧
+								アーカイブ
 							</h1>
 
 						</header>

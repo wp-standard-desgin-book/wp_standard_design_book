@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
-		<title>ブログ記事一覧 | Ozone Cafe</title>
+		<title>アーカイブ | Ozone Cafe</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<?php wp_enqueue_style(
@@ -89,7 +89,7 @@
 
 						<header class="entry-header">
 							<h1 class="entry-title archive-title">
-								ブログ記事一覧
+								アーカイブ
 							</h1>
 
 						</header>
