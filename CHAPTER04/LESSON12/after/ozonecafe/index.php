@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html>
-
+<html <?php language_attributes(); ?>>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<title>ブログ記事一覧 | Ozone Cafe</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="../style.css" />
+		<?php wp_enqueue_style(
+			'base-style', 		//CSSの識別ID
+			get_stylesheet_uri(),	//CSSファイルへのpath
+			array(),			//先に読み込むCSS
+			'1.0',				//CSSファイルのバージョン指定
+			'all'				//CSSのmedia属性
+		); ?>
 
+	<?php wp_head(); ?>
 	</head>
 
-	<body class="blog archive">
-
+	<body <?php body_class(); ?>>
 		<!-- ▼ヘッダー : 開始 -->
 		<header class="header">
 
 			<div class="container">
 
 				<div class="header-logo">
-					<a href="../index.html">
-						<img src="../images/common/logo.png" alt="Ozone Cafe">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>/index.html">
+						<img src="<?php echo esc_url ( get_template_directory_uri() ); ?>/images/common/logo.png" alt="Ozone Cafe">
 					</a>
 				</div>
 				<!--/.header-logo-->
@@ -112,7 +117,7 @@
 
 							<div class="entry-content">
 								<div class="thumbnail">
-									<img src="../images/content/menu08-thumbnail01.png" alt="新メニュー・生チョコのタルト" width="175">
+									<img src="<?php echo esc_url ( get_template_directory_uri() ); ?>/images/content/menu08-thumbnail01.png" alt="新メニュー・生チョコのタルト" width="175">
 								</div>
 
 								<p>スイーツメニューもリニューアルしました！
@@ -155,7 +160,7 @@
 							<div class="entry-content">
 
 								<div class="thumbnail">
-									<img src="../images/content/article01-thumbnail01.png" alt="本日リニューアルオープン！">
+									<img src="<?php echo esc_url ( get_template_directory_uri() ); ?>/images/content/article01-thumbnail01.png" alt="本日リニューアルオープン！">
 								</div>
 
 								<p>Ozone Cafeは1ヶ月半の改装工事が終わり、本日リニューアルオープン！
@@ -241,19 +246,19 @@
 
 						<p>
 							<a href="../recruit/form.html">
-								<img src="../images/common/banner-contact.png" alt="お問い合わせ">
+								<img src="<?php echo esc_url ( get_template_directory_uri() ); ?>/images/common/banner-contact.png" alt="お問い合わせ">
 							</a>
 						</p>
 
 						<p>
 							<a href="../shop/index.html#access">
-								<img src="../images/common/banner-access.png" alt="アクセス">
+								<img src="<?php echo esc_url ( get_template_directory_uri() ); ?>/images/common/banner-access.png" alt="アクセス">
 							</a>
 						</p>
 
 						<p>
 							<a href="../blog/index.html">
-								<img src="../images/common/banner-blog.png" alt="ブログ">
+								<img src="<?php echo esc_url ( get_template_directory_uri() ); ?>/images/common/banner-blog.png" alt="ブログ">
 							</a>
 						</p>
 
@@ -270,12 +275,9 @@
 		<footer id="colophon" class="footer text-center">
 
 			<div class="container">
-
 				<div class="footer-logo">
-					<a href="../index.html">
-						<img src="../images/common/logo-footer.png" alt="Ozone Cafe">
-					</a>
-					<p>"一杯"に込める思い。Ozone Cafe</p>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>/index.html"><img src="<?php echo esc_url ( get_template_directory_uri() ); ?>/images/footer-logo.png" alt="Ozone Cafe"></a>
+					<p><?php bloginfo( 'description' ); ?></p>
 				</div>
 				<!--/.footer-logo-->
 
@@ -316,6 +318,7 @@
 		</footer>
 		<!--▲フッター : 終了-->
 
+	<?php wp_footer(); ?>
 	</body>
 
 </html>
