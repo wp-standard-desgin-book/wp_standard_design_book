@@ -15,16 +15,20 @@
 
 					<section class="archive menus posts">
 
-						<nav class="menu-navs">
-							<ul>
-								<li><a href="../">ALL</a></li>
-								<li><a href="../">アイスドリンク</a></li>
-								<li><a href="../">ホットドリンク</a></li>
-								<li><a href="../">フード</a></li>
-								<li><a href="../">スイーツ</a></li>
-							</ul>
-						</nav>
-						<!--.menu-navs-->
+					<nav class="menu-navs">
+					  <ul>
+					    <li><a href="<?php echo esc_url( home_url( '/menus/' ) ); ?>">ALL</a></li>
+					    <?php
+					      // メニューカテゴリーのリストを出力
+					      $args = array(
+					         'taxonomy' => 'menucat',  //menucatタクソノミーを指定
+					         'title_li' => '', //リストの見出しは出力しない
+					       );
+					      wp_list_categories( $args );
+					    ?>
+					  </ul>
+					</nav><!--.menu-navs-->
+
 
 						<div class="entry-content">
 
