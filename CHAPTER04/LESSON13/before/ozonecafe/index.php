@@ -310,7 +310,7 @@
 				<!--/.footer-navigation-->
 
 				<div class="footer-copyright">
-					<p>copyright © 2014 Ozone Cafe All Right Reserved.</p>
+					<p>copyright &copy; 2014 Ozone Cafe All Right Reserved.</p>
 				</div>
 
 			</div>
