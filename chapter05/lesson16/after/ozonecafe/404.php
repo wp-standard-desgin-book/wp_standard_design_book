@@ -19,7 +19,7 @@
 									お探しのページは削除されたか、名前が変更されたか、一時的に利用できない可能性があります。<br/>
 									アクセスされたURLをご確認いただき、このサイトのトップページから、または上部ナビゲーションメニューからお探しのページへアクセスしてください。
 								</p>
-								<p><a href="<?php echo esc_url( home_url() ); ?>">&raquo;トップページへ戻る</a></p>
+								<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>">&raquo;トップページへ戻る</a></p>
 							</div><!--/.entry-content-->
 
 						</article>
@@ -28,8 +28,12 @@
 
 				</div>
 				<!-- ▲メインカラム : 終了-->
+
 				<?php get_sidebar(); ?>
-			</div>
+
+			</div><!-- /.container -->
+
 		</div>
 		<!--▲メインコンテンツ : 終了-->
+
 <?php get_footer(); ?>

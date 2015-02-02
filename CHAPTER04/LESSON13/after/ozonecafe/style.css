@@ -1234,11 +1234,6 @@ table.contact-form textarea {
 
 .blog .entry-content .thumbnail {
     float: left;
-<<<<<<< HEAD:CHAPTER04/LESSON11/ozonecafe/style.css
-=======
-
-    max-width: 175px;
->>>>>>> 7d0955c4f7fdfc54648cbdf08f1620789ed16860:CHAPTER04/LESSON13/after/ozonecafe/style.css
     margin-right: 16px;
 }
 
@@ -1314,136 +1309,9 @@ table.contact-form textarea {
     }
 }
 
-<<<<<<< HEAD:CHAPTER04/LESSON11/ozonecafe/style.css
 /**
  * 10.0 - コメントフォーム
  */
-=======
-/* 8.17 投稿ナビゲーション、一覧ページネーション
-	 -----------------------------------*/
-.post-navigation,
-.paging-navigation {
-    font-size: 14px;
-    font-weight: 300;
-
-    padding: 20px 0;
-
-    color: #fff;
-    background-color: #fff;
-}
-
-.post-navigation .nav-links,
-.paging-navigation .nav-links {
-    margin: 0 7px;
-}
-.post-navigation .nav-links a,
-.paging-navigation .nav-links a {
-    line-height: 1.7em;
-
-    position: relative;
-
-    display: inline-block;
-
-    width: 214px;
-
-    text-align: center;
-    text-decoration: none;
-
-    color: #fff;
-    background: #7d5031;
-    background-image: -webkit-linear-gradient(224deg, rgba(211, 120, 120, 0.25) 0%, rgba(149, 36, 129, 0.25) 50%, rgba(185, 199, 39, 0.25) 100%);
-    background-image:         linear-gradient(-134deg, rgba(211, 120, 120, 0.25) 0%, rgba(149, 36, 129, 0.25) 50%, rgba(185, 199, 39, 0.25) 100%);
-}
-.post-navigation .nav-links a:after,
-.paging-navigation .nav-links a:after {
-    position: absolute;
-    top: -7px;
-    left: -7px;
-
-    width: 226px;
-    height: 36px;
-
-    content: '';
-
-    border: 1px solid #e8e8e8;
-}
-@media screen and (max-width: 640px) {
-    .post-navigation .nav-links a,
-    .paging-navigation .nav-links a {
-        display: block;
-
-        margin-right: auto;
-        margin-bottom: 24px;
-        margin-left: auto;
-    }
-}
-
-.post-navigation a[rel='next'] {
-    float: right;
-
-    text-align: center;
-}
-@media screen and (max-width: 640px) {
-    .post-navigation a[rel='next'] {
-        float: none;
-    }
-}
-
-.paging-navigation .nav-previous {
-    float: left;
-}
-.paging-navigation .nav-next {
-    float: right;
-}
-@media screen and (max-width: 640px) {
-    .paging-navigation .nav-previous {
-        float: none;
-    }
-    .paging-navigation .nav-next {
-        float: none;
-    }
-}
-
-/* 8.18 メニュー詳細 コンテンツ
-	 -----------------------------------*/
-.menu-detail {
-    overflow: hidden;
-}
-.menu-detail .menu-thumbnail {
-    float: left;
-
-    width: 256px;
-    margin-right: 24px;
-    padding: 5px;
-
-    border: 1px solid #e8e8e8;
-}
-.menu-detail .menu-thumbnail img {
-    max-width: 100%;
-}
-@media screen and (max-width: 940px) {
-    .menu-detail .menu-thumbnail {
-        float: none;
-
-        width: 100%;
-    }
-}
-.menu-detail .menu-content {
-    float: right;
-
-    width: 431px;
-}
-.menu-detail .menu-content p {
-    margin-bottom: 2em;
-}
-@media screen and (max-width: 940px) {
-    .menu-detail .menu-content {
-        float: none;
-
-        width: 100%;
-    }
-}
->>>>>>> 7d0955c4f7fdfc54648cbdf08f1620789ed16860:CHAPTER04/LESSON13/after/ozonecafe/style.css
 
 #reply-title {
     margin-top: 0;
@@ -1655,15 +1523,11 @@ a img.aligncenter {
 }
 
 .screen-reader-text {
-<<<<<<< HEAD:CHAPTER04/LESSON11/ozonecafe/style.css
     position: absolute !important;
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
     width: 1px;
     height: 1px;
-=======
-    display: none;
->>>>>>> 7d0955c4f7fdfc54648cbdf08f1620789ed16860:CHAPTER04/LESSON13/after/ozonecafe/style.css
 }
 
 /**

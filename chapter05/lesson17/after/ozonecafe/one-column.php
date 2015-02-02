@@ -1,10 +1,7 @@
 <?php
-/*
-Template Name: サイドバーなし1カラム
-*/
+/* Template Name: サイドバーなし1カラム*/
 ?>
 <?php get_header(); ?>
-
 		<!--▼メインコンテンツ : 開始-->
 		<div id="main" class="l-one-column">
 			<div class="container">
@@ -35,8 +32,8 @@ Template Name: サイドバーなし1カラム
 				</div>
 				<!-- ▲メインカラム : 終了-->
 
-			</div>
+			</div><!-- /.container -->
+
 		</div>
 		<!--▲メインコンテンツ : 終了-->
-
 <?php get_footer(); ?>

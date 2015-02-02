@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<?php wp_enqueue_style(
 			'base-style', //CSSの識別ID
-			get_stylesheet_uri(), //CSSファイルへのpath
+			esc_url( get_stylesheet_uri() ), //CSSファイルへのpath
 			array(), //先に読み込むCSS
 			'1.0', //CSSファイルのバージョン指定
 			'all' //CSSのmedia属性
@@ -19,7 +19,7 @@
 		<header class="header">
 			<div class="container">
 				<div class="header-logo">
-					<a href="<?php echo esc_url( home_url( '/' ) ) ?>"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/common/logo.png" alt="Ozone Cafe"></a>
+					<a href="<?php echo esc_url( home_url( '/' ) ) ?>"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo.png" alt="Ozone Cafe"></a>
 				</div><!--/.header-logo-->
 
 				<nav class="header-navigation">
@@ -69,15 +69,12 @@
 						<?php if ( have_posts() ) : //もし、記事が1件以上あったら ?>
 							<?php while ( have_posts() ) : //記事がある間は繰り返す
 							the_post(); //次の記事のデータをセットする ?>
-
 						<!--▼一記事目 : 開始-->
 						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 							<header class="entry-header">
-								<h1 class="entry-title">
-									<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-								</h1>
+								<h1 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 								<div class="entry-meta">
-									<span class="date"><time class="entry-date"><?php the_time( 'Y年n月j日' ) ?></time></span>
+									<span class="date"><time class="entry-date"><?php the_time( 'Y年n月j日' ); ?></time></span>
 									<span class="categories-links info"><a href="#" rel="category"><?php the_category( ',' ); ?></a></span>
 								</div>
 							</header><!--/.entry-header-->
@@ -94,17 +91,14 @@
 						</article>
 						<!--▲一記事目 : 終了-->
 
-						<!--▲1記事目 : 終了-->
-						<?php endwhile; //投稿ループ終了 ?>
-
 						<!-- ▲ブログ記事一覧 : 終了 -->
 
+						<?php endwhile; //投稿ループ終了 ?>
+
 						<?php the_posts_pagination(); ?>
-
-						<?php else : //もし、表示すべき記事がなかったら ?>
-							<p>まだ記事はありません。</p>
-						<?php endif; //条件分岐終了 ?>
-
+					<?php else: //もし、表示すべき記事がなかったら ?>
+						<p>まだ記事はありません。</p>
+					<?php endif; //条件分岐終了 ?>
 					</div>
 					<!--▲記事コンテンツエリア : 終了-->
 
@@ -144,17 +138,17 @@
 					<div class="widget banner">
 						<p>
 							<a href="../recruit/form.html">
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/common/banner-contact.png" alt="お問い合わせ">
+								<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/common/banner-contact.png" alt="お問い合わせ">
 							</a>
 						</p>
 						<p>
 							<a href="../shop/index.html#access">
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/common/banner-access.png" alt="アクセス">
+								<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/common/banner-access.png" alt="アクセス">
 							</a>
 						</p>
 						<p>
 							<a href="../blog/index.html">
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/common/banner-blog.png" alt="ブログ">
+								<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/common/banner-blog.png" alt="ブログ">
 							</a>
 						</p>
 					</div>
@@ -163,7 +157,8 @@
 				</aside>
 				<!-- ▲サイドカラム : 終了-->
 
-			</div>
+			</div><!-- /.container -->
+
 		</div>
 		<!--▲メインコンテンツ : 終了-->
 
@@ -172,7 +167,7 @@
 			<div class="container">
 				<div class="footer-logo">
 					<a href="<?php echo esc_url( home_url( '/' ) ) ?>">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/common/logo-footer.png" alt="Ozone Cafe">
+						<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/common/logo-footer.png" alt="Ozone Cafe">
 					</a>
 					<p><?php bloginfo( 'description' ) ?></p>
 				</div><!--/.footer-logo-->
@@ -190,7 +185,7 @@
 				</div><!--/.footer-navigation-->
 
 				<div class="footer-copyright">
-					<p>Copyright &copy; 2015 <?php bloginfo( 'name' ) ?> All Right Reserved.</p>
+					<p>Copyright &copy; 2015 <?php bloginfo( 'name' ); ?> All Right Reserved.</p>
 				</div><!--/.footer-copyright-->
 
 			</div>

@@ -1,9 +1,10 @@
+
 		<!--▼フッター : 開始-->
 		<footer id="colophon" class="footer text-center">
 			<div class="container">
 				<div class="footer-logo">
 					<a href="<?php echo esc_url( home_url( '/' ) ) ?>">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/common/logo-footer.png" alt="Ozone Cafe">
+						<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/common/logo-footer.png" alt="Ozone Cafe">
 					</a>
 					<p><?php bloginfo( 'description' ) ?></p>
 				</div><!--/.footer-logo-->
@@ -21,7 +22,7 @@
 				</div><!--/.footer-navigation-->
 
 				<div class="footer-copyright">
-					<p>Copyright &copy; 2015 <?php bloginfo( 'name' ) ?> All Right Reserved.</p>
+					<p>Copyright &copy; 2015 <?php bloginfo( 'name' ); ?> All Right Reserved.</p>
 				</div><!--/.footer-copyright-->
 
 			</div>

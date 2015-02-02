@@ -31,17 +31,17 @@
 					<div class="widget banner">
 						<p>
 							<a href="../recruit/form.html">
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/common/banner-contact.png" alt="お問い合わせ">
+								<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/common/banner-contact.png" alt="お問い合わせ">
 							</a>
 						</p>
 						<p>
 							<a href="../shop/index.html#access">
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/common/banner-access.png" alt="アクセス">
+								<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/common/banner-access.png" alt="アクセス">
 							</a>
 						</p>
 						<p>
 							<a href="../blog/index.html">
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/common/banner-blog.png" alt="ブログ">
+								<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/common/banner-blog.png" alt="ブログ">
 							</a>
 						</p>
 					</div>
