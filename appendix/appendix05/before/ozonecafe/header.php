@@ -26,7 +26,7 @@
 
 				<div class="header-logo">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/common/logo.png" alt="Ozone Cafe">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" alt="Ozone Cafe">
 					</a>
 				</div>
 				<!--/.header-logo-->

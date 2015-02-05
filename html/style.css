@@ -1419,15 +1419,12 @@ table.contact-form textarea {
 .commentlist .comment-meta {
     display: inline;
 }
-
-.commentlist .comment-meta + p {
-    display: inline;
+.visual img {
+    display: block;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
-
-.commentlist .comment-meta + p + .reply {
-    display: inline;
-}
-
 /**
  * 11.0 WordPress デフォルトスタイル
  */
