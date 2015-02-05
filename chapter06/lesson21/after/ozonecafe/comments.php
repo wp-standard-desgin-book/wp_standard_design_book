@@ -1,6 +1,6 @@
 						<div class="comments-area">
 							<h3 id="comments">この記事へのコメント</h3>
-							<?php if ( have_comments() ) ： //もし、コメントが1件以上あったら ?>
+							<?php if ( have_comments() ) : //もし、コメントが1件以上あったら ?>
 							<ol class="commentlist">
 								<?php wp_list_comments(); ?>
 							</ol><!-- /. commentlist -->

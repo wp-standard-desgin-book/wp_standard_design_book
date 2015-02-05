@@ -9,7 +9,6 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
-
 /*------------------------------------*\
  * Table of Contents
  *
@@ -1020,6 +1019,8 @@ table.contact-form textarea {
 
 /** 投稿タイトル **/
 .page-header .entry-title,
+.entry-header .entry-title,
+.page-header .archive-title,
 .page-header .blog .archive-title,
 .blog .page-header .archive-title {
     font-size: 24px;
