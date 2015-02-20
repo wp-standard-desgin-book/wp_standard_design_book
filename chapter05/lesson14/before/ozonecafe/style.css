@@ -300,7 +300,9 @@ table th {
     padding-left: 1em;
     text-align: left;
 }
-
+.text-danger{
+    color: #ae0000;
+}
 /**
  * 2.0 - レイアウト
  */
@@ -596,17 +598,6 @@ table th {
     background-image:         linear-gradient(-134deg, rgba(211, 120, 120, 0.25) 0%, rgba(149, 36, 129, 0.25) 50%, rgba(185, 199, 39, 0.25) 100%);
 }
 
-.post-navigation .nav-links a:after,
-.paging-navigation .nav-links a:after {
-    position: absolute;
-    top: -7px;
-    left: -7px;
-    width: 226px;
-    height: 36px;
-    content: '';
-    border: 1px solid #e8e8e8;
-}
-
 @media screen and (max-width: 640px) {
     .post-navigation .nav-links a,
     .paging-navigation .nav-links a {
@@ -629,19 +620,27 @@ table th {
     }
 }
 
+.post-navigation .nav-previous,
 .paging-navigation .nav-previous {
     float: left;
+    padding: 8px;
+    border: 1px solid #e8e8e8;
 }
 
+.post-navigation .nav-next,
 .paging-navigation .nav-next {
     float: right;
+    padding: 8px;
+    border: 1px solid #e8e8e8;
 }
 
 @media screen and (max-width: 640px) {
+    .post-navigation .nav-next,
     .paging-navigation .nav-previous {
         float: none;
     }
 
+    .post-navigation .nav-next,
     .paging-navigation .nav-next {
         float: none;
     }
@@ -1425,6 +1424,7 @@ textarea {
 .commentlist .comment-meta {
     display: inline;
 }
+
 .visual img {
     display: block;
     max-width: 100%;
@@ -1566,6 +1566,11 @@ a img.aligncenter {
 }
 
 /** 12.2 トップページバナー **/
+.home .l-one-column .l-main{
+    width: 100%;
+    max-width: 100%;
+}
+
 .home-banner {
     overflow: hidden;
     margin-top: 5em;
