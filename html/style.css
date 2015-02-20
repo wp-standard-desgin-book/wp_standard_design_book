@@ -359,13 +359,16 @@ table th {
 .l-one-column {
     padding-top: 2em;
     padding-bottom: 2em;
-    background: #fcfcfc;
+    background: #ffffff;
 }
 
 .l-one-column .l-main {
     width: 100%;
-    max-width: 100%;
+    max-width: 726px;
     padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
 }
 
 .l-one-column .entry-header .entry-title,
@@ -932,12 +935,12 @@ textarea {
 }
 
 /** 8.2 - お問い合わせフォーム **/
-table.contact-form {
+.entry-content table.contact-form {
     margin-bottom: 2em;
     border: 1px solid #e8e8e8;
 }
 
-table.contact-form th {
+.entry-content table.contact-form th {
     width: 30%;
     padding-top: 1.3em;
     padding-bottom: 1.3em;
@@ -946,7 +949,7 @@ table.contact-form th {
     vertical-align: top;
 }
 
-table.contact-form td {
+.entry-content table.contact-form td {
     width: 70%;
     padding-top: 1.3em;
     padding-bottom: 1.3em;
@@ -954,30 +957,30 @@ table.contact-form td {
     text-align: left;
 }
 
-table.contact-form td textarea,
-table.contact-form td input {
+.entry-content table.contact-form td textarea,
+.entry-content table.contact-form td input {
     width: auto;
 }
 
-table.contact-form textarea {
+.entry-content table.contact-form textarea {
     min-height: 200px;
 }
 
 @media screen and (max-width: 640px) {
-    table.contact-form {
+    .entry-content table.contact-form {
         display: block;
     }
-    table.contact-form tbody,
-    table.contact-form thead,
-    table.contact-form th,
-    table.contact-form td,
-    table.contact-form tr {
+    .entry-content table.contact-form tbody,
+    .entry-content table.contact-form thead,
+    .entry-content table.contact-form th,
+    .entry-content table.contact-form td,
+    .entry-content table.contact-form tr {
         display: block;
         width: 100%;
         text-align: left;
     }
-    table.contact-form th,
-    table.contact-form td {
+    .entry-content table.contact-form th,
+    .entry-content table.contact-form td {
         padding-left: 1em;
     }
 }
@@ -1263,6 +1266,8 @@ table.contact-form textarea {
     background-image: url(images/icons/icon-category.png);
     background-repeat: no-repeat;
     background-position: 8px center;
+    background-color: #8b6c6c;
+    color: #fff;
 }
 
 .entry-meta .categories-links a {
@@ -1275,19 +1280,10 @@ table.contact-form textarea {
     opacity: 0.8;
 }
 
-.entry-meta .categories-links.limited {
-    background-color: #b5ad55;
-}
-
-.entry-meta .categories-links.info {
-    background-color: #8b6c6c;
-}
-
 @media screen and (max-width: 640px) {
     .entry-meta .author {
         float: none;
     }
-
     .entry-meta span {
         display: block;
         margin-bottom: 8px;
