@@ -23,6 +23,8 @@ html (※作成するWordPressテーマのベースとなるHTML+CSSサイト)
 
 import (※作成するWordPressサイトのコンテンツ用のインポートファイル)
 
+contents（※サイト制作中にWordPressの投稿・固定ページとして登録するコンテンツ部分のみをまとめたファイル）
+
 (※chapter01,02にサンプルはありません)
 
 chapter03 (※lesson09にサンプルはありません)
@@ -72,7 +74,7 @@ appendix (※appendix02以外にサンプルはありません)
 ------------------------------
 ★著作権・ライセンスについて★
 ------------------------------
-サンプルファイルの著作権は、著者にあります。（main-visual.pngおよびmain-visual.jpgを除く）
+サンプルファイルの著作権は、著者にあります。（taste01-thumbnail01.png,main-visual.pngおよびmain-visual.jpgを除く）
 また、サンプルファイルはWordPress本体のライセンスを継承し、GPLライセンスを採用しています。
 GPLライセンスの範囲内で自由にお使いいただくことができますが、本書サンプルファイルを使用して作成した成果物もGPLまたは互換ライセンスを採用する必要があります。
 
@@ -80,7 +82,7 @@ GPLライセンスの範囲内で自由にお使いいただくことができ�
 https://ja.wordpress.org/gpl/
 http://wpdocs.sourceforge.jp/License
 
-※収録ファイルのうち、main-visual.pngおよびmain-visual.jpgはCC0 1.0 Universalライセンスにて公開されているパブリックドメインの画像です。
+※収録ファイルのうち、taste01-thumbnail01.png,main-visual.pngおよびmain-visual.jpgはCC0 1.0 Universalライセンスにて公開されているパブリックドメインの画像です。
 画像を公開してくださっているJay Mantri氏に感謝いたします。
 http://jaymantri.com/post/95423350658/download
 

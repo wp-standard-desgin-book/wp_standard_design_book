@@ -1,0 +1,88 @@
+【タイトル】
+スタッフ応募フォーム
+
+【フォーム内容】
+必要事項を入力のうえ、送信してください。
+折り返し担当者より連絡いたします。
+
+<table class="contact-form">
+<tbody>
+<tr>
+<th>お名前 <span class="text-danger">※必須</span></th>
+<td>[mwform_text name="yourname"]</td>
+</tr>
+<tr>
+<th>ふりがな <span class="text-danger">※必須</span></th>
+<td>[mwform_text name="kana"]</td>
+</tr>
+<tr>
+<th>電話番号 <span class="text-danger">※必須</span></th>
+<td>[mwform_tel name="tel"]</td>
+</tr>
+<tr>
+<th>メールアドレス <span class="text-danger">※必須</span></th>
+<td>[mwform_text name="email"]</td>
+</tr>
+<tr>
+<th>希望職種</th>
+<td>[mwform_radio name="jobtype" children="ホールスタッフ,キッチンスタッフ,未定"]</td>
+</tr>
+<tr>
+<th>その他連絡事項</th>
+<td>[mwform_textarea name="message"]</td>
+</tr>
+</tbody>
+</table>
+<!--/.contact-form-->
+<p class="text-center">[mwform_submitButton name="submit" confirm_value="入力内容を確認する" submit_value="この内容で送信する"]</p>
+
+【完了メッセージ】
+<h3>送信完了</h3>
+<p>お問い合わせありがとうございました。<br>
+担当者が内容を確認の上、改めてご連絡いたします。<br>
+今しばらくお待ちください。</p>
+<p>&raquo;<a href="/" title="HOME">トップページへ戻る</a></p>
+
+【自動返信メール設定】
+＜件名＞
+ご応募ありがとうございます
+
+＜本文＞
+Ozone Cafeスタッフ募集へのご応募ありがとうございます。
+送信された内容は以下の通りです。
+
+———————
+【お名前】{yourname}
+【ふりがな】{kana}
+【電話番号】{tel}
+【メールアドレス】{email}
+【希望職種】{jobtype}
+【その他連絡事項】
+{message}
+———————
+
+担当者が折り返しご連絡いたしますので、しばらくお待ちください。
+
+———
+Ozone Cafe
+ 
+
+
+【管理者宛メール設定】
+＜件名＞
+ご応募ありがとうございます
+
+＜本文＞
+Ozone Cafeスタッフ募集への応募がありました。
+送信された内容は以下の通りです。
+
+———————
+【お名前】{yourname}
+【ふりがな】{kana}
+【電話番号】{tel}
+【メールアドレス】{email}
+【希望職種】{jobtype}
+【その他連絡事項】
+{message}
+———————
+
