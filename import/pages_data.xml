@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.1.1" created="2015-02-24 07:51" -->
+<!-- generator="WordPress/4.1.1" created="2015-02-24 09:08" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -27,13 +27,13 @@
 
 <channel>
 	<title>Ozone Cafe</title>
-	<link>http://localhost/wordpress</link>
+	<link>http://wpb.grgr.red</link>
 	<description>&#34;一杯&#34;に込める思い。Ozone Cafe</description>
-	<pubDate>Tue, 24 Feb 2015 07:51:37 +0000</pubDate>
+	<pubDate>Tue, 24 Feb 2015 09:08:51 +0000</pubDate>
 	<language>ja</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://localhost/wordpress</wp:base_site_url>
-	<wp:base_blog_url>http://localhost/wordpress</wp:base_blog_url>
+	<wp:base_site_url>http://wpb.grgr.red</wp:base_site_url>
+	<wp:base_blog_url>http://wpb.grgr.red</wp:base_blog_url>
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>ozone_nomura</wp:author_login><wp:author_email>ozone@example.com</wp:author_email><wp:author_display_name><![CDATA[ozone_nomura]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -42,10 +42,10 @@
 
 	<item>
 		<title>店舗案内</title>
-		<link>http://localhost/wordpress/shop</link>
-		<pubDate>Tue, 24 Feb 2015 02:33:11 +0000</pubDate>
+		<link>http://wpb.grgr.red/shop</link>
+		<pubDate>Mon, 23 Feb 2015 17:40:01 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?page_id=9</guid>
+		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=9</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h2>明るく開放感のある空間で、こだわりのコーヒーとお菓子をどうぞ</h2>
 <p>Ozone Cafeはこの地域の皆様に愛されて40年。<br>
@@ -70,14 +70,14 @@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4824051080996!2d139.72143439999996!3d35.68974474999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ced8c86ba09%3A0x78592d40799309cc!2z44CSMTYwLTAwMDYg5p2x5Lqs6YO95paw5a6_5Yy66Iif55S677yV4oiS77yYIOiIn-eUuu-8leeVquODk-ODqw!5e0!3m2!1sja!2sjp!4v1412823368703" width="726" height="400" frameborder="0" style="border:0"></iframe>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>9</wp:post_id>
-		<wp:post_date>2015-02-24 11:33:11</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:33:11</wp:post_date_gmt>
+		<wp:post_date>2015-02-24 02:40:01</wp:post_date>
+		<wp:post_date_gmt>2015-02-23 17:40:01</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
+		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>shop</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:menu_order>1</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -88,10 +88,10 @@
 	</item>
 	<item>
 		<title>当店のこだわり</title>
-		<link>http://localhost/wordpress/taste</link>
-		<pubDate>Tue, 24 Feb 2015 02:34:49 +0000</pubDate>
+		<link>http://wpb.grgr.red/shop/taste</link>
+		<pubDate>Mon, 23 Feb 2015 17:40:02 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?page_id=12</guid>
+		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=12</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h2>コーヒーへのこだわり</h2>
 <h3>フェアトレードの豆をすべて自家焙煎</h3>
@@ -100,7 +100,7 @@
 <h3>注文を受けてから手挽きし・ネルドリップ</h3>
 最高の状態でコーヒーを味わっていただくために、当店では注文を受けてから専用のミルで丁寧に豆を挽き、1杯ずつネルドリップしています。
 
-<img class="aligncenter wp-image-16 size-full" src="http://localhost/wordpress/wp-content/uploads/2015/02/taste01-thumbnail01.png" alt="taste01-thumbnail01" width="725" height="199" />
+<img class="aligncenter wp-image-16 size-full" src="http://wpb.grgr.red/wp-content/uploads/2015/02/taste01-thumbnail01.png" alt="taste01-thumbnail01" width="725" height="199" />
 <h2>スイーツへのこだわり</h2>
 <h3>専属パティシエによる本格スイーツ</h3>
 当店で提供しているスイーツは、店内で専属のパティシエが心を込めて作っています。
@@ -109,23 +109,23 @@
 当店では、季節のフルーツを使用した期間限定メニューを毎月提供しています。
 産地直送の、旬の味をお楽しみください。
 
-<img class="aligncenter size-medium wp-image-13" src="http://localhost/wordpress/wp-content/uploads/2015/02/menu06-thumbnail01-300x300.jpg" alt="menu06-thumbnail01" width="300" height="300" />
+<img class="aligncenter size-medium wp-image-13" src="http://wpb.grgr.red/wp-content/uploads/2015/02/menu06-thumbnail01-300x300.jpg" alt="menu06-thumbnail01" width="300" height="300" />
 <h2>内装へのこだわり</h2>
 <h3>明るく開放的な空間に</h3>
 店内は大きめの窓から自然光が入るように設計し、明るく広々とした、開放的な空間を演出しました。
 インテリアは海外の著名なデザイナーが手掛けたものをセレクトしています。
 
-<img class="aligncenter size-medium wp-image-14" src="http://localhost/wordpress/wp-content/uploads/2015/02/shop01-thumbnail01-300x200.png" alt="shop01-thumbnail01" width="300" height="200" />]]></content:encoded>
+<img class="aligncenter size-medium wp-image-14" src="http://wpb.grgr.red/wp-content/uploads/2015/02/shop01-thumbnail01-300x200.png" alt="shop01-thumbnail01" width="300" height="200" />]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>12</wp:post_id>
-		<wp:post_date>2015-02-24 11:34:49</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:34:49</wp:post_date_gmt>
+		<wp:post_date>2015-02-24 02:40:02</wp:post_date>
+		<wp:post_date_gmt>2015-02-23 17:40:02</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>taste</wp:post_name>
 		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:post_parent>9</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -133,13 +133,25 @@
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_description</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>スタッフ募集</title>
-		<link>http://localhost/wordpress/recruit</link>
-		<pubDate>Tue, 24 Feb 2015 02:39:22 +0000</pubDate>
+		<link>http://wpb.grgr.red/recruit</link>
+		<pubDate>Mon, 23 Feb 2015 17:40:04 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?page_id=18</guid>
+		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=18</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h2>当店で一緒に働いてみませんか？</h2>
 <p>当店ではスタッフを募集しています。<br>
@@ -162,18 +174,18 @@
 		日程調整後、面接を行います。（写真付き履歴書を持参ください）</dd>
 </dl>
 <p class="text-center">
-	<a href="./form"><img src="http://localhost/wordpress/wp-content/uploads/2015/02/btn-entry-form.png" alt="btn-entry-form" width="375" height="78" class="alignnone size-full wp-image-19" /></a>
+	<a href="./form"><img src="http://wpb.grgr.red/wp-content/uploads/2015/02/btn-entry-form.png" alt="btn-entry-form" width="375" height="78" class="alignnone size-full wp-image-19" /></a>
 </p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>18</wp:post_id>
-		<wp:post_date>2015-02-24 11:39:22</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:39:22</wp:post_date_gmt>
+		<wp:post_date>2015-02-24 02:40:04</wp:post_date>
+		<wp:post_date_gmt>2015-02-23 17:40:04</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
+		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>recruit</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:menu_order>4</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -196,10 +208,10 @@
 	</item>
 	<item>
 		<title>当店の歴史</title>
-		<link>http://localhost/wordpress/history</link>
-		<pubDate>Tue, 24 Feb 2015 02:39:56 +0000</pubDate>
+		<link>http://wpb.grgr.red/shop/history</link>
+		<pubDate>Mon, 23 Feb 2015 17:40:03 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?page_id=21</guid>
+		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=21</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h2>沿革</h2>
 <p>当店のあゆみを年表としてまとめました。</p>
@@ -247,14 +259,14 @@
 </table>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>21</wp:post_id>
-		<wp:post_date>2015-02-24 11:39:56</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:39:56</wp:post_date_gmt>
+		<wp:post_date>2015-02-24 02:40:03</wp:post_date>
+		<wp:post_date_gmt>2015-02-23 17:40:03</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>history</wp:post_name>
 		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:post_parent>9</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -265,10 +277,10 @@
 	</item>
 	<item>
 		<title>スタッフ応募フォーム</title>
-		<link>http://localhost/wordpress/recruit/form</link>
-		<pubDate>Tue, 24 Feb 2015 02:40:23 +0000</pubDate>
+		<link>http://wpb.grgr.red/recruit/form</link>
+		<pubDate>Mon, 23 Feb 2015 17:40:05 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?page_id=23</guid>
+		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=23</guid>
 		<description></description>
 		<content:encoded><![CDATA[[mwform_formkey key="69"]
 
@@ -280,14 +292,14 @@
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>23</wp:post_id>
-		<wp:post_date>2015-02-24 11:40:23</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:40:23</wp:post_date_gmt>
+		<wp:post_date>2015-02-24 02:40:05</wp:post_date>
+		<wp:post_date_gmt>2015-02-23 17:40:05</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
+		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>form</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>18</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:menu_order>5</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -310,10 +322,10 @@
 	</item>
 	<item>
 		<title>HOME</title>
-		<link>http://localhost/wordpress/</link>
-		<pubDate>Tue, 24 Feb 2015 02:40:39 +0000</pubDate>
+		<link>http://wpb.grgr.red/</link>
+		<pubDate>Tue, 24 Feb 2015 02:40:00 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?page_id=25</guid>
+		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=25</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h2>開放的な空間で、コーヒーとスイーツを楽しめるカフェ</h2>
 
@@ -321,8 +333,8 @@
 明るく開放的な空間で、心ゆくまでおくつろぎください。</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>25</wp:post_id>
-		<wp:post_date>2015-02-24 11:40:39</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:40:39</wp:post_date_gmt>
+		<wp:post_date>2015-02-24 02:40:00</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 02:40:00</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>home</wp:post_name>
@@ -339,22 +351,22 @@
 	</item>
 	<item>
 		<title>ブログ</title>
-		<link>http://localhost/wordpress/blog</link>
-		<pubDate>Tue, 24 Feb 2015 02:53:54 +0000</pubDate>
+		<link>http://wpb.grgr.red/blog</link>
+		<pubDate>Mon, 23 Feb 2015 17:40:06 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?page_id=57</guid>
+		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=57</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>57</wp:post_id>
-		<wp:post_date>2015-02-24 11:53:54</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:53:54</wp:post_date_gmt>
+		<wp:post_date>2015-02-24 02:40:06</wp:post_date>
+		<wp:post_date_gmt>2015-02-23 17:40:06</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>blog</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:menu_order>6</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -369,22 +381,22 @@
 	</item>
 	<item>
 		<title>サイトマップ</title>
-		<link>http://localhost/wordpress/sitemap</link>
-		<pubDate>Tue, 24 Feb 2015 03:04:20 +0000</pubDate>
+		<link>http://wpb.grgr.red/sitemap</link>
+		<pubDate>Mon, 23 Feb 2015 17:40:07 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?page_id=71</guid>
+		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=71</guid>
 		<description></description>
 		<content:encoded><![CDATA[[sitemap]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>71</wp:post_id>
-		<wp:post_date>2015-02-24 12:04:20</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 03:04:20</wp:post_date_gmt>
+		<wp:post_date>2015-02-24 02:40:07</wp:post_date>
+		<wp:post_date_gmt>2015-02-23 17:40:07</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
+		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>sitemap</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:menu_order>7</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
