@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/*
+Theme Name: Ozone Cafe
+Theme URI: http://localhost/wordpress/
+Author: Your Name
+Author URI: http://localhost/
+Description: このサイトは『WordPress標準デザイン講座 4.x対応版』のサンプルサイトです。
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
 /*------------------------------------*\
  * Table of Contents
  *
@@ -491,6 +501,10 @@ table th {
     .header-navigation .sub-menu {
         float: none;
     }
+    .header-navigation .sub-menu li {
+        width: 100%;
+    }
+
 }
 
 .header-navigation .sub-menu ul {
@@ -798,6 +812,7 @@ ul.bread_crumb li.sub:before {
 
 .widget_categories ul li {
     border-bottom: 1px solid #e8e8e8;
+    text-align: left;
 }
 
 .widget_categories ul li a {
@@ -959,6 +974,8 @@ textarea {
 .entry-content table.contact-form td textarea,
 .entry-content table.contact-form td input {
     width: auto;
+    max-width: 94%;
+    padding: 2px 5px;
 }
 
 .entry-content table.contact-form textarea {

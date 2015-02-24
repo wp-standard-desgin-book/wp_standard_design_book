@@ -1,18 +1,18 @@
-<div id="comments" class="comments-area">
+						<div class="comments-area">
+							<h3 id="comments">この記事へのコメント</h3>
+							<?php if ( have_comments() ) : //もし、コメントが1件以上あったら ?>
+							<ol class="commentlist">
+								<?php wp_list_comments(); ?>
+							</ol><!-- /. commentlist -->
+							<?php else: //もし、表示すべきコメントがなかったら ?>
+								<p>コメントはまだありません。</p>
+							<?php endif; //条件分岐終了 ?>
 
-	<h2 class="comments-title">この記事へのコメント</h2>
-	<?php if ( have_comments() ) : //もし、コメントが1件以上あったら ?>
+							<?php if ( comments_open() ) : //もし、コメントが許可されていたら ?>
+								<?php comment_form(); ?>
+							<?php else: //もし、コメントが許可されていなかったら ?>
+								<p>現在、コメントは受け付けていません。</p>
+							<?php endif; //条件分岐終了 ?>
 
-	<ul class="comment-list">
-		<?php wp_list_comments(); ?>
-	</ul>
-
-	<?php else: //もし、表示すべきコメントがなかったら ?>
-
-		<p>コメントはまだありません。</p>
-
-	<?php endif; //条件分岐終了 ?>
-
-	<?php comment_form(); ?>
-
-</div><!-- /#comments -->
+						</div>
+						<!--▲コメント : 終了-->

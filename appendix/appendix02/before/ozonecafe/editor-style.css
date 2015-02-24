@@ -1,8 +1,7 @@
 @charset "UTF-8";
 /** サイトコンテンツに関連する記述**/
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
-body                         { font-family: Helvetica, Arial, 'Hiragino Ka
-ku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', sans-serif;
+body                         { font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', sans-serif;
                                font-size: 14px;
                                line-height: 1.7em;
                                max-width: 726px; }
