@@ -29,9 +29,9 @@
 								<div class="menu-block">
 									<div class="menu-thumbnail">
 										<?php if ( has_post_thumbnail() ) : ?>
-											<?php the_post_thumbnail( 'full' ); ?>
+											<?php the_post_thumbnail(); ?>
 										<?php else : // アイキャッチ画像が無い時 ?>
-											<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/content/noimage.png" alt="" class="imgresponsive">
+											<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/content/noimage.png" alt="" class="img-responsive">
 										<?php endif; ?>
 									</div>
 									<h2 class="menu-title"><?php the_title(); ?></h2>
