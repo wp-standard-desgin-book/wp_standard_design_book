@@ -43,6 +43,16 @@ function add_my_scripts() {
 		'1.0', //CSSファイルのバージョン指定
 		'all' //CSSのmedia属性
 	);
+
+	//スクリプトファイル読み込み
+	wp_enqueue_script(
+		'jquery-scroll-top', //JSファイルのハンドル名（識別ID）
+		esc_url( get_template_directory_uri() ) . '/js/jquery.scroll.top.js',//JSファイルへのパス
+		array( 'jquery' ), //依存する（先に読み込む）JS
+		'1.0.0', // JSファイルのバージョン
+		false // wp_head 内で読み込む
+	);
+
 }
 add_action( 'wp_enqueue_scripts', 'add_my_scripts' );
 
