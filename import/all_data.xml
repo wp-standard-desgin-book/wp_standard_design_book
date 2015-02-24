@@ -27,13 +27,13 @@
 
 <channel>
 	<title>Ozone Cafe</title>
-	<link>http://wpb.grgr.red</link>
+	<link>http://localhost/wordpress</link>
 	<description>&#34;一杯&#34;に込める思い。Ozone Cafe</description>
 	<pubDate>Tue, 24 Feb 2015 07:52:04 +0000</pubDate>
 	<language>ja</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://wpb.grgr.red</wp:base_site_url>
-	<wp:base_blog_url>http://wpb.grgr.red</wp:base_blog_url>
+	<wp:base_site_url>http://localhost/wordpress</wp:base_site_url>
+	<wp:base_blog_url>http://localhost/wordpress</wp:base_blog_url>
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>ozone_nomura</wp:author_login><wp:author_email>ozone@example.com</wp:author_email><wp:author_display_name><![CDATA[ozone_nomura]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -52,10 +52,10 @@
 
 	<item>
 		<title>menu06-thumbnail01</title>
-		<link>http://wpb.grgr.red/taste/menu06-thumbnail01</link>
+		<link>http://localhost/wordpress/taste/menu06-thumbnail01</link>
 		<pubDate>Tue, 24 Feb 2015 02:34:22 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/menu06-thumbnail01.jpg</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu06-thumbnail01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -71,7 +71,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/menu06-thumbnail01.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu06-thumbnail01.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/menu06-thumbnail01.jpg]]></wp:meta_value>
@@ -83,10 +83,10 @@
 	</item>
 	<item>
 		<title>shop01-thumbnail01</title>
-		<link>http://wpb.grgr.red/taste/shop01-thumbnail01</link>
+		<link>http://localhost/wordpress/taste/shop01-thumbnail01</link>
 		<pubDate>Tue, 24 Feb 2015 02:34:40 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/shop01-thumbnail01.png</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/shop01-thumbnail01.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -102,7 +102,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/shop01-thumbnail01.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/shop01-thumbnail01.png</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/shop01-thumbnail01.png]]></wp:meta_value>
@@ -114,10 +114,10 @@
 	</item>
 	<item>
 		<title>taste01-thumbnail01</title>
-		<link>http://wpb.grgr.red/taste/taste01-thumbnail01</link>
+		<link>http://localhost/wordpress/taste/taste01-thumbnail01</link>
 		<pubDate>Tue, 24 Feb 2015 02:37:52 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/taste01-thumbnail01.png</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/taste01-thumbnail01.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -133,7 +133,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/taste01-thumbnail01.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/taste01-thumbnail01.png</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/taste01-thumbnail01.png]]></wp:meta_value>
@@ -145,10 +145,10 @@
 	</item>
 	<item>
 		<title>btn-entry-form</title>
-		<link>http://wpb.grgr.red/recruit/btn-entry-form</link>
+		<link>http://localhost/wordpress/recruit/btn-entry-form</link>
 		<pubDate>Tue, 24 Feb 2015 02:39:08 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/btn-entry-form.png</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/btn-entry-form.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -164,7 +164,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/btn-entry-form.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/btn-entry-form.png</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/btn-entry-form.png]]></wp:meta_value>
@@ -176,10 +176,10 @@
 	</item>
 	<item>
 		<title>menu01-thumbnail01</title>
-		<link>http://wpb.grgr.red/menus/menu01/menu01-thumbnail01</link>
+		<link>http://localhost/wordpress/menus/menu01/menu01-thumbnail01</link>
 		<pubDate>Tue, 24 Feb 2015 02:44:02 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/menu01-thumbnail01.jpg</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu01-thumbnail01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -195,7 +195,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/menu01-thumbnail01.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu01-thumbnail01.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/menu01-thumbnail01.jpg]]></wp:meta_value>
@@ -207,10 +207,10 @@
 	</item>
 	<item>
 		<title>menu02-thumbnail01</title>
-		<link>http://wpb.grgr.red/menus/menu01/menu02-thumbnail01</link>
+		<link>http://localhost/wordpress/menus/menu01/menu02-thumbnail01</link>
 		<pubDate>Tue, 24 Feb 2015 02:44:06 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/menu02-thumbnail01.png</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu02-thumbnail01.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -226,7 +226,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/menu02-thumbnail01.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu02-thumbnail01.png</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/menu02-thumbnail01.png]]></wp:meta_value>
@@ -238,10 +238,10 @@
 	</item>
 	<item>
 		<title>menu03-thumbnail01</title>
-		<link>http://wpb.grgr.red/menus/menu01/menu03-thumbnail01</link>
+		<link>http://localhost/wordpress/menus/menu01/menu03-thumbnail01</link>
 		<pubDate>Tue, 24 Feb 2015 02:44:06 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/menu03-thumbnail01.jpg</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu03-thumbnail01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -257,7 +257,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/menu03-thumbnail01.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu03-thumbnail01.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/menu03-thumbnail01.jpg]]></wp:meta_value>
@@ -269,10 +269,10 @@
 	</item>
 	<item>
 		<title>menu04-thumbnail01</title>
-		<link>http://wpb.grgr.red/menus/menu01/menu04-thumbnail01</link>
+		<link>http://localhost/wordpress/menus/menu01/menu04-thumbnail01</link>
 		<pubDate>Tue, 24 Feb 2015 02:44:07 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/menu04-thumbnail01.jpg</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu04-thumbnail01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -288,7 +288,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/menu04-thumbnail01.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu04-thumbnail01.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/menu04-thumbnail01.jpg]]></wp:meta_value>
@@ -300,10 +300,10 @@
 	</item>
 	<item>
 		<title>menu05-thumbnail01</title>
-		<link>http://wpb.grgr.red/menus/menu01/menu05-thumbnail01</link>
+		<link>http://localhost/wordpress/menus/menu01/menu05-thumbnail01</link>
 		<pubDate>Tue, 24 Feb 2015 02:44:07 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/menu05-thumbnail01.jpg</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu05-thumbnail01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -319,7 +319,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/menu05-thumbnail01.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu05-thumbnail01.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/menu05-thumbnail01.jpg]]></wp:meta_value>
@@ -331,10 +331,10 @@
 	</item>
 	<item>
 		<title>menu06-thumbnail01</title>
-		<link>http://wpb.grgr.red/menus/menu01/menu06-thumbnail01-2</link>
+		<link>http://localhost/wordpress/menus/menu01/menu06-thumbnail01-2</link>
 		<pubDate>Tue, 24 Feb 2015 02:44:08 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/menu06-thumbnail011.jpg</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu06-thumbnail011.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -350,7 +350,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/menu06-thumbnail011.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu06-thumbnail011.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/menu06-thumbnail011.jpg]]></wp:meta_value>
@@ -362,10 +362,10 @@
 	</item>
 	<item>
 		<title>menu07-thumbnail01</title>
-		<link>http://wpb.grgr.red/menus/menu01/menu07-thumbnail01</link>
+		<link>http://localhost/wordpress/menus/menu01/menu07-thumbnail01</link>
 		<pubDate>Tue, 24 Feb 2015 02:44:08 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/menu07-thumbnail01.jpg</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu07-thumbnail01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -381,7 +381,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/menu07-thumbnail01.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu07-thumbnail01.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/menu07-thumbnail01.jpg]]></wp:meta_value>
@@ -393,10 +393,10 @@
 	</item>
 	<item>
 		<title>menu08-thumbnail01</title>
-		<link>http://wpb.grgr.red/menus/menu01/menu08-thumbnail01</link>
+		<link>http://localhost/wordpress/menus/menu01/menu08-thumbnail01</link>
 		<pubDate>Tue, 24 Feb 2015 02:44:09 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/menu08-thumbnail01.jpg</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu08-thumbnail01.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -412,7 +412,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/menu08-thumbnail01.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu08-thumbnail01.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/menu08-thumbnail01.jpg]]></wp:meta_value>
@@ -424,10 +424,10 @@
 	</item>
 	<item>
 		<title>カプチーノ</title>
-		<link>http://wpb.grgr.red/menus/menu03</link>
+		<link>http://localhost/wordpress/menus/menu03</link>
 		<pubDate>Tue, 24 Feb 2015 02:45:43 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=41</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=41</guid>
 		<description></description>
 		<content:encoded><![CDATA[苦さがほとばしるエスプレッソと、クリーミーな泡が自慢のカプチーノです。<br>
 ※ラテ・アートはご予約にて承ります。
@@ -465,10 +465,10 @@
 	</item>
 	<item>
 		<title>アイスコーヒー</title>
-		<link>http://wpb.grgr.red/menus/menu04</link>
+		<link>http://localhost/wordpress/menus/menu04</link>
 		<pubDate>Tue, 24 Feb 2015 02:46:07 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=42</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=42</guid>
 		<description></description>
 		<content:encoded><![CDATA[アイス専用の豆をセレクトし、ホットよりも少し深めにローストしています。<br>
 大人の苦味が楽しめる、当店自慢のアイスコーヒーです。]]></content:encoded>
@@ -513,10 +513,10 @@
 	</item>
 	<item>
 		<title>アイスカフェオレ</title>
-		<link>http://wpb.grgr.red/menus/menu05</link>
+		<link>http://localhost/wordpress/menus/menu05</link>
 		<pubDate>Tue, 24 Feb 2015 02:46:35 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=43</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=43</guid>
 		<description></description>
 		<content:encoded><![CDATA[アイス専用の豆をセレクトし、ホットよりも少し深めにローストしています。<br>
 大人の苦味が楽しめる、当店自慢のアイスコーヒーです。]]></content:encoded>
@@ -553,10 +553,10 @@
 	</item>
 	<item>
 		<title>生チョコのタルト</title>
-		<link>http://wpb.grgr.red/menus/menu06</link>
+		<link>http://localhost/wordpress/menus/menu06</link>
 		<pubDate>Tue, 24 Feb 2015 02:47:13 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=44</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=44</guid>
 		<description></description>
 		<content:encoded><![CDATA[本場ベルギー製のチョコレートをふんだんに使用したタルトです。<br>
 季節のフルーツを添えてどうぞ。
@@ -594,10 +594,10 @@
 	</item>
 	<item>
 		<title>ランチプレート</title>
-		<link>http://wpb.grgr.red/menus/menu07</link>
+		<link>http://localhost/wordpress/menus/menu07</link>
 		<pubDate>Tue, 24 Feb 2015 02:47:48 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=45</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=45</guid>
 		<description></description>
 		<content:encoded><![CDATA[メインのおかずにごはん・サラダ・スープ・小鉢がついた日替わりのランチプレートです。<br>
 内容は店内の黒板にてご確認ください。]]></content:encoded>
@@ -634,10 +634,10 @@
 	</item>
 	<item>
 		<title>カルボナーラ</title>
-		<link>http://wpb.grgr.red/menus/menu08</link>
+		<link>http://localhost/wordpress/menus/menu08</link>
 		<pubDate>Tue, 24 Feb 2015 02:48:17 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=46</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=46</guid>
 		<description></description>
 		<content:encoded><![CDATA[イタリア直輸入のパスタと、ジューシーなベーコンの相性は抜群。<br>
 3種のチーズをブレンドしたソースは、深いコクを味わえます。]]></content:encoded>
@@ -674,10 +674,10 @@
 	</item>
 	<item>
 		<title>main-visual</title>
-		<link>http://wpb.grgr.red/?attachment_id=60</link>
+		<link>http://localhost/wordpress/?attachment_id=60</link>
 		<pubDate>Tue, 24 Feb 2015 02:55:10 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/main-visual.jpg</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/main-visual.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -693,7 +693,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/main-visual.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/main-visual.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/main-visual.jpg]]></wp:meta_value>
@@ -713,10 +713,10 @@
 	</item>
 	<item>
 		<title>article02-thumbnail01</title>
-		<link>http://wpb.grgr.red/archives/29/article02-thumbnail01</link>
+		<link>http://localhost/wordpress/archives/29/article02-thumbnail01</link>
 		<pubDate>Tue, 24 Feb 2015 03:58:51 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/wp-content/uploads/2015/02/article02-thumbnail01.png</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/article02-thumbnail01.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -732,7 +732,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://wpb.grgr.red/wp-content/uploads/2015/02/article02-thumbnail01.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/article02-thumbnail01.png</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/02/article02-thumbnail01.png]]></wp:meta_value>
@@ -744,10 +744,10 @@
 	</item>
 	<item>
 		<title>店舗案内</title>
-		<link>http://wpb.grgr.red/shop</link>
+		<link>http://localhost/wordpress/shop</link>
 		<pubDate>Tue, 24 Feb 2015 02:33:11 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=9</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=9</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h2>明るく開放感のある空間で、こだわりのコーヒーとお菓子をどうぞ</h2>
 <p>Ozone Cafeはこの地域の皆様に愛されて40年。<br>
@@ -790,10 +790,10 @@
 	</item>
 	<item>
 		<title>ブレンドコーヒー</title>
-		<link>http://wpb.grgr.red/menus/menu01</link>
+		<link>http://localhost/wordpress/menus/menu01</link>
 		<pubDate>Tue, 24 Feb 2015 02:44:40 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=31</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=31</guid>
 		<description></description>
 		<content:encoded><![CDATA[ブラジルから直輸入した自家焙煎のコーヒー豆を、注文を受けてから専用のミルで挽き、1杯ずつネルドリップしています。<br>
 苦さと酸味が程よいバランスで楽しめる、中深煎りのコーヒーです。]]></content:encoded>
@@ -830,10 +830,10 @@
 	</item>
 	<item>
 		<title>ホットカフェオレ</title>
-		<link>http://wpb.grgr.red/menus/menu02</link>
+		<link>http://localhost/wordpress/menus/menu02</link>
 		<pubDate>Tue, 24 Feb 2015 02:45:09 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=40</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=40</guid>
 		<description></description>
 		<content:encoded><![CDATA[カフェオレ専用の豆を使用し、マイルドな味わいに仕上げました。<br>
 北海道の牧場で取れたフレッシュな牛乳との相性もバッチリです。]]></content:encoded>
@@ -870,10 +870,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=47</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=47</link>
 		<pubDate>Tue, 24 Feb 2015 02:49:32 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=47</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=47</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -925,10 +925,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=48</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=48</link>
 		<pubDate>Tue, 24 Feb 2015 02:49:32 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=48</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=48</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -980,10 +980,10 @@
 	</item>
 	<item>
 		<title>応募フォーム</title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=49</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=49</link>
 		<pubDate>Tue, 24 Feb 2015 02:49:32 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=49</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=49</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1035,10 +1035,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=50</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=50</link>
 		<pubDate>Tue, 24 Feb 2015 02:49:32 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=50</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=50</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1090,10 +1090,10 @@
 	</item>
 	<item>
 		<title>こだわり</title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=51</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=51</link>
 		<pubDate>Tue, 24 Feb 2015 02:49:32 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=51</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=51</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1145,10 +1145,10 @@
 	</item>
 	<item>
 		<title>歴史</title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=52</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=52</link>
 		<pubDate>Tue, 24 Feb 2015 02:49:32 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=52</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=52</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1200,10 +1200,10 @@
 	</item>
 	<item>
 		<title>SHOP</title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=53</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=53</link>
 		<pubDate>Tue, 24 Feb 2015 02:52:23 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=53</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=53</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1255,10 +1255,10 @@
 	</item>
 	<item>
 		<title>MENUS</title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=54</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=54</link>
 		<pubDate>Tue, 24 Feb 2015 02:53:36 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=54</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=54</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1305,15 +1305,15 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://wpb.grgr.red/menus]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://localhost/wordpress/menus]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>RECRUIT</title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=55</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=55</link>
 		<pubDate>Tue, 24 Feb 2015 02:53:36 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=55</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=55</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1365,10 +1365,10 @@
 	</item>
 	<item>
 		<title>BLOG</title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=59</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=59</link>
 		<pubDate>Tue, 24 Feb 2015 02:54:13 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=59</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=59</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1415,15 +1415,15 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://wpb.grgr.red/blog/]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://localhost/wordpress/blog/]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>ホーム</title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=61</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=61</link>
 		<pubDate>Tue, 24 Feb 2015 02:57:41 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=61</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=61</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1475,10 +1475,10 @@
 	</item>
 	<item>
 		<title>求人応募</title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=62</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=62</link>
 		<pubDate>Tue, 24 Feb 2015 02:57:41 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=62</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=62</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1530,10 +1530,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=64</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=64</link>
 		<pubDate>Tue, 24 Feb 2015 02:57:41 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=64</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=64</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1585,10 +1585,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=66</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=66</link>
 		<pubDate>Tue, 24 Feb 2015 02:57:41 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=66</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=66</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1640,10 +1640,10 @@
 	</item>
 	<item>
 		<title>ブログ</title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=67</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=67</link>
 		<pubDate>Tue, 24 Feb 2015 02:57:41 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=67</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=67</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1690,15 +1690,15 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://wpb.grgr.red/blog/]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://localhost/wordpress/blog/]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>メニュー</title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=68</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=68</link>
 		<pubDate>Tue, 24 Feb 2015 02:57:41 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=68</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=68</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1745,15 +1745,15 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://wpb.grgr.red/menus/]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://localhost/wordpress/menus/]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>サイトマップ</title>
-		<link>http://wpb.grgr.red/?post_type=nav_menu_item&#038;p=73</link>
+		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=73</link>
 		<pubDate>Tue, 24 Feb 2015 03:05:10 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=73</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=73</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1800,15 +1800,15 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://wpb.grgr.red/sitemap/]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://localhost/wordpress/sitemap/]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>当店のこだわり</title>
-		<link>http://wpb.grgr.red/taste</link>
+		<link>http://localhost/wordpress/taste</link>
 		<pubDate>Tue, 24 Feb 2015 02:34:49 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=12</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=12</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h2>コーヒーへのこだわり</h2>
 <h3>フェアトレードの豆をすべて自家焙煎</h3>
@@ -1817,7 +1817,7 @@
 <h3>注文を受けてから手挽きし・ネルドリップ</h3>
 最高の状態でコーヒーを味わっていただくために、当店では注文を受けてから専用のミルで丁寧に豆を挽き、1杯ずつネルドリップしています。
 
-<img class="aligncenter wp-image-16 size-full" src="http://wpb.grgr.red/wp-content/uploads/2015/02/taste01-thumbnail01.png" alt="taste01-thumbnail01" width="725" height="199" />
+<img class="aligncenter wp-image-16 size-full" src="http://localhost/wordpress/wp-content/uploads/2015/02/taste01-thumbnail01.png" alt="taste01-thumbnail01" width="725" height="199" />
 <h2>スイーツへのこだわり</h2>
 <h3>専属パティシエによる本格スイーツ</h3>
 当店で提供しているスイーツは、店内で専属のパティシエが心を込めて作っています。
@@ -1826,13 +1826,13 @@
 当店では、季節のフルーツを使用した期間限定メニューを毎月提供しています。
 産地直送の、旬の味をお楽しみください。
 
-<img class="aligncenter size-medium wp-image-13" src="http://wpb.grgr.red/wp-content/uploads/2015/02/menu06-thumbnail01-300x300.jpg" alt="menu06-thumbnail01" width="300" height="300" />
+<img class="aligncenter size-medium wp-image-13" src="http://localhost/wordpress/wp-content/uploads/2015/02/menu06-thumbnail01-300x300.jpg" alt="menu06-thumbnail01" width="300" height="300" />
 <h2>内装へのこだわり</h2>
 <h3>明るく開放的な空間に</h3>
 店内は大きめの窓から自然光が入るように設計し、明るく広々とした、開放的な空間を演出しました。
 インテリアは海外の著名なデザイナーが手掛けたものをセレクトしています。
 
-<img class="aligncenter size-medium wp-image-14" src="http://wpb.grgr.red/wp-content/uploads/2015/02/shop01-thumbnail01-300x200.png" alt="shop01-thumbnail01" width="300" height="200" />]]></content:encoded>
+<img class="aligncenter size-medium wp-image-14" src="http://localhost/wordpress/wp-content/uploads/2015/02/shop01-thumbnail01-300x200.png" alt="shop01-thumbnail01" width="300" height="200" />]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>12</wp:post_id>
 		<wp:post_date>2015-02-24 11:34:49</wp:post_date>
@@ -1853,10 +1853,10 @@
 	</item>
 	<item>
 		<title>スタッフ募集</title>
-		<link>http://wpb.grgr.red/recruit</link>
+		<link>http://localhost/wordpress/recruit</link>
 		<pubDate>Tue, 24 Feb 2015 02:39:22 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=18</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=18</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h2>当店で一緒に働いてみませんか？</h2>
 <p>当店ではスタッフを募集しています。<br>
@@ -1879,7 +1879,7 @@
 		日程調整後、面接を行います。（写真付き履歴書を持参ください）</dd>
 </dl>
 <p class="text-center">
-	<a href="./form"><img src="http://wpb.grgr.red/wp-content/uploads/2015/02/btn-entry-form.png" alt="btn-entry-form" width="375" height="78" class="alignnone size-full wp-image-19" /></a>
+	<a href="./form"><img src="http://localhost/wordpress/wp-content/uploads/2015/02/btn-entry-form.png" alt="btn-entry-form" width="375" height="78" class="alignnone size-full wp-image-19" /></a>
 </p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>18</wp:post_id>
@@ -1913,10 +1913,10 @@
 	</item>
 	<item>
 		<title>当店の歴史</title>
-		<link>http://wpb.grgr.red/history</link>
+		<link>http://localhost/wordpress/history</link>
 		<pubDate>Tue, 24 Feb 2015 02:39:56 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=21</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=21</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h2>沿革</h2>
 <p>当店のあゆみを年表としてまとめました。</p>
@@ -1982,10 +1982,10 @@
 	</item>
 	<item>
 		<title>スタッフ応募フォーム</title>
-		<link>http://wpb.grgr.red/recruit/form</link>
+		<link>http://localhost/wordpress/recruit/form</link>
 		<pubDate>Tue, 24 Feb 2015 02:40:23 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=23</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=23</guid>
 		<description></description>
 		<content:encoded><![CDATA[[mwform_formkey key="69"]
 
@@ -2027,10 +2027,10 @@
 	</item>
 	<item>
 		<title>HOME</title>
-		<link>http://wpb.grgr.red/</link>
+		<link>http://localhost/wordpress/</link>
 		<pubDate>Tue, 24 Feb 2015 02:40:39 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=25</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=25</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h2>開放的な空間で、コーヒーとスイーツを楽しめるカフェ</h2>
 
@@ -2056,10 +2056,10 @@
 	</item>
 	<item>
 		<title>新メニュー・生チョコのタルト</title>
-		<link>http://wpb.grgr.red/archives/27</link>
+		<link>http://localhost/wordpress/archives/27</link>
 		<pubDate>Tue, 24 Feb 2015 02:41:35 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=27</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=27</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>スイーツメニューもリニューアルしました！<br>
 おすすめは本場ベルギー製のチョコレートをたっぷり使った生チョコのタルトです。<br>
@@ -2099,10 +2099,10 @@
 	</item>
 	<item>
 		<title>本日リニューアルオープン！</title>
-		<link>http://wpb.grgr.red/archives/29</link>
+		<link>http://localhost/wordpress/archives/29</link>
 		<pubDate>Tue, 24 Feb 2015 02:41:51 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=29</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=29</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Ozone Cafeは1ヶ月半の改装工事が終わり、本日リニューアルオープン！<br>
 以前とは雰囲気も少し変わり、明るく開放感のあるお店に生まれ変わりました。<br>
@@ -2141,10 +2141,10 @@
 	</item>
 	<item>
 		<title>ブログ</title>
-		<link>http://wpb.grgr.red/blog</link>
+		<link>http://localhost/wordpress/blog</link>
 		<pubDate>Tue, 24 Feb 2015 02:53:54 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=57</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=57</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2171,10 +2171,10 @@
 	</item>
 	<item>
 		<title>サイトマップ</title>
-		<link>http://wpb.grgr.red/sitemap</link>
+		<link>http://localhost/wordpress/sitemap</link>
 		<pubDate>Tue, 24 Feb 2015 03:04:20 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?page_id=71</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=71</guid>
 		<description></description>
 		<content:encoded><![CDATA[[sitemap]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>

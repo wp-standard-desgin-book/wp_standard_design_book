@@ -27,13 +27,13 @@
 
 <channel>
 	<title>Ozone Cafe</title>
-	<link>http://wpb.grgr.red</link>
+	<link>http://localhost/wordpress</link>
 	<description>&#34;一杯&#34;に込める思い。Ozone Cafe</description>
 	<pubDate>Tue, 24 Feb 2015 07:51:52 +0000</pubDate>
 	<language>ja</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://wpb.grgr.red</wp:base_site_url>
-	<wp:base_blog_url>http://wpb.grgr.red</wp:base_blog_url>
+	<wp:base_site_url>http://localhost/wordpress</wp:base_site_url>
+	<wp:base_blog_url>http://localhost/wordpress</wp:base_blog_url>
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>ozone_nomura</wp:author_login><wp:author_email>ozone@example.com</wp:author_email><wp:author_display_name><![CDATA[ozone_nomura]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -42,10 +42,10 @@
 
 	<item>
 		<title>新メニュー・生チョコのタルト</title>
-		<link>http://wpb.grgr.red/archives/27</link>
+		<link>http://localhost/wordpress/archives/27</link>
 		<pubDate>Tue, 24 Feb 2015 02:41:35 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=27</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=27</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>スイーツメニューもリニューアルしました！<br>
 おすすめは本場ベルギー製のチョコレートをたっぷり使った生チョコのタルトです。<br>
@@ -85,10 +85,10 @@
 	</item>
 	<item>
 		<title>本日リニューアルオープン！</title>
-		<link>http://wpb.grgr.red/archives/29</link>
+		<link>http://localhost/wordpress/archives/29</link>
 		<pubDate>Tue, 24 Feb 2015 02:41:51 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?p=29</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=29</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Ozone Cafeは1ヶ月半の改装工事が終わり、本日リニューアルオープン！<br>
 以前とは雰囲気も少し変わり、明るく開放感のあるお店に生まれ変わりました。<br>
