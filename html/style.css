@@ -491,6 +491,10 @@ table th {
     .header-navigation .sub-menu {
         float: none;
     }
+    .header-navigation .sub-menu li {
+        width: 100%;
+    }
+
 }
 
 .header-navigation .sub-menu ul {
@@ -798,6 +802,7 @@ ul.bread_crumb li.sub:before {
 
 .widget_categories ul li {
     border-bottom: 1px solid #e8e8e8;
+    text-align: left;
 }
 
 .widget_categories ul li a {
@@ -959,6 +964,8 @@ textarea {
 .entry-content table.contact-form td textarea,
 .entry-content table.contact-form td input {
     width: auto;
+    max-width: 94%;
+    padding: 2px 5px;
 }
 
 .entry-content table.contact-form textarea {

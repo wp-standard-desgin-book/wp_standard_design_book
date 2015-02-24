@@ -7,9 +7,7 @@
 
 					<!--▼カテゴリウィジェット : 開始-->
 					<div class="widget widget_categories">
-						<h2 class="widget-title">
-						メニューカテゴリー
-						</h2>
+						<h2 class="widget-title">メニューカテゴリー</h2>
 						<ul>
 							<li><a href="../menu/index.html">アイスドリンク</a></li>
 							<li><a href="../menu/index.html">ホットドリンク</a></li>
@@ -22,17 +20,17 @@
 					<!--▼ サイドバーバナー : 開始-->
 					<div class="widget banner">
 						<p>
-							<a href="../recruit/form.html">
+							<a href="<?php echo esc_url( home_url( '/recruit/form/' ) ) ?>">
 								<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/common/banner-contact.png" alt="お問い合わせ">
 							</a>
 						</p>
 						<p>
-							<a href="../shop/index.html#access">
+							<a href="<?php echo esc_url( home_url( '/shop/#access' ) ) ?>">
 								<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/common/banner-access.png" alt="アクセス">
 							</a>
 						</p>
 						<p>
-							<a href="../blog/index.html">
+							<a href="<?php echo esc_url( home_url( '/blog' ) ) ?>">
 								<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/common/banner-blog.png" alt="ブログ">
 							</a>
 						</p>

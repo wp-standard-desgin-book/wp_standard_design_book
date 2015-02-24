@@ -157,9 +157,7 @@
 
 					<!--▼カテゴリウィジェット : 開始-->
 					<div class="widget widget_categories">
-						<h2 class="widget-title">
-						メニューカテゴリー
-						</h2>
+						<h2 class="widget-title">メニューカテゴリー</h2>
 						<ul>
 							<li><a href="../menu/index.html">アイスドリンク</a></li>
 							<li><a href="../menu/index.html">ホットドリンク</a></li>
