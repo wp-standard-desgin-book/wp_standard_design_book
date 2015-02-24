@@ -27,13 +27,13 @@
 
 <channel>
 	<title>Ozone Cafe</title>
-	<link>http://wpb.grgr.red</link>
+	<link>http://localhost/wordpress</link>
 	<description>&#34;一杯&#34;に込める思い。Ozone Cafe</description>
 	<pubDate>Tue, 24 Feb 2015 09:46:08 +0000</pubDate>
 	<language>ja</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://wpb.grgr.red</wp:base_site_url>
-	<wp:base_blog_url>http://wpb.grgr.red</wp:base_blog_url>
+	<wp:base_site_url>http://localhost/wordpress</wp:base_site_url>
+	<wp:base_blog_url>http://localhost/wordpress</wp:base_blog_url>
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>ozone_nomura</wp:author_login><wp:author_email>ozone@example.com</wp:author_email><wp:author_display_name><![CDATA[ozone_nomura]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -42,10 +42,10 @@
 
 	<item>
 		<title>ブレンドコーヒー</title>
-		<link>http://wpb.grgr.red/menus/menu01</link>
+		<link>http://localhost/wordpress/menus/menu01</link>
 		<pubDate>Tue, 24 Feb 2015 02:44:40 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=31</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=31</guid>
 		<description></description>
 		<content:encoded><![CDATA[ブラジルから直輸入した自家焙煎のコーヒー豆を、注文を受けてから専用のミルで挽き、1杯ずつネルドリップしています。<br>
 苦さと酸味が程よいバランスで楽しめる、中深煎りのコーヒーです。]]></content:encoded>
@@ -86,10 +86,10 @@
 	</item>
 	<item>
 		<title>ホットカフェオレ</title>
-		<link>http://wpb.grgr.red/menus/menu02</link>
+		<link>http://localhost/wordpress/menus/menu02</link>
 		<pubDate>Tue, 24 Feb 2015 02:45:09 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=40</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=40</guid>
 		<description></description>
 		<content:encoded><![CDATA[カフェオレ専用の豆を使用し、マイルドな味わいに仕上げました。<br>
 北海道の牧場で取れたフレッシュな牛乳との相性もバッチリです。]]></content:encoded>
@@ -130,10 +130,10 @@
 	</item>
 	<item>
 		<title>カプチーノ</title>
-		<link>http://wpb.grgr.red/menus/menu03</link>
+		<link>http://localhost/wordpress/menus/menu03</link>
 		<pubDate>Tue, 24 Feb 2015 02:45:43 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=41</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=41</guid>
 		<description></description>
 		<content:encoded><![CDATA[苦さがほとばしるエスプレッソと、クリーミーな泡が自慢のカプチーノです。<br>
 ※ラテ・アートはご予約にて承ります。
@@ -175,10 +175,10 @@
 	</item>
 	<item>
 		<title>アイスコーヒー</title>
-		<link>http://wpb.grgr.red/menus/menu04</link>
+		<link>http://localhost/wordpress/menus/menu04</link>
 		<pubDate>Tue, 24 Feb 2015 02:46:07 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=42</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=42</guid>
 		<description></description>
 		<content:encoded><![CDATA[アイス専用の豆をセレクトし、ホットよりも少し深めにローストしています。<br>
 大人の苦味が楽しめる、当店自慢のアイスコーヒーです。]]></content:encoded>
@@ -219,10 +219,10 @@
 	</item>
 	<item>
 		<title>アイスカフェオレ</title>
-		<link>http://wpb.grgr.red/menus/menu05</link>
+		<link>http://localhost/wordpress/menus/menu05</link>
 		<pubDate>Tue, 24 Feb 2015 02:46:35 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=43</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=43</guid>
 		<description></description>
 		<content:encoded><![CDATA[豆はアイスカフェオレ専用にブレンドしています。<br>
 新鮮で濃厚な北海道産牛乳を使用し、やさしい甘みが感じられる一杯に仕上げました。]]></content:encoded>
@@ -263,10 +263,10 @@
 	</item>
 	<item>
 		<title>生チョコのタルト</title>
-		<link>http://wpb.grgr.red/menus/menu06</link>
+		<link>http://localhost/wordpress/menus/menu06</link>
 		<pubDate>Tue, 24 Feb 2015 02:47:13 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=44</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=44</guid>
 		<description></description>
 		<content:encoded><![CDATA[本場ベルギー製のチョコレートをふんだんに使用したタルトです。<br>
 季節のフルーツを添えてどうぞ。
@@ -308,10 +308,10 @@
 	</item>
 	<item>
 		<title>ランチプレート</title>
-		<link>http://wpb.grgr.red/menus/menu07</link>
+		<link>http://localhost/wordpress/menus/menu07</link>
 		<pubDate>Tue, 24 Feb 2015 02:47:48 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=45</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=45</guid>
 		<description></description>
 		<content:encoded><![CDATA[メインのおかずにごはん・サラダ・スープ・小鉢がついた日替わりのランチプレートです。<br>
 内容は店内の黒板にてご確認ください。]]></content:encoded>
@@ -352,10 +352,10 @@
 	</item>
 	<item>
 		<title>カルボナーラ</title>
-		<link>http://wpb.grgr.red/menus/menu08</link>
+		<link>http://localhost/wordpress/menus/menu08</link>
 		<pubDate>Tue, 24 Feb 2015 02:48:17 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://wpb.grgr.red/?post_type=menus&#038;p=46</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=46</guid>
 		<description></description>
 		<content:encoded><![CDATA[イタリア直輸入のパスタと、ジューシーなベーコンの相性は抜群。<br>
 3種のチーズをブレンドしたソースは、深いコクを味わえます。]]></content:encoded>
