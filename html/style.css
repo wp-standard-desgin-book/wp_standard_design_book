@@ -705,14 +705,14 @@ ul.bread_crumb li.sub:before {
 /** 5.1 - メニューアーカイブ **/
 
 .menu-block {
-    float: left;
-    width: 46.6%;
+    width: 46.5%;
     margin-right: 12px;
     margin-bottom: 24px;
     margin-left: 12px;
     padding: 16px;
     text-align: center;
     border: 1px solid #e8e8e8;
+    display: inline-block;
 }
 @media screen and (max-width: 940px) {
     .menu-block {
