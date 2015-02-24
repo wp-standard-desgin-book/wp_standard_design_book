@@ -721,6 +721,7 @@ ul.bread_crumb li.sub:before {
     margin-left: 12px;
     padding: 16px;
     text-align: center;
+    vertical-align: top;
     border: 1px solid #e8e8e8;
     display: inline-block;
 }
