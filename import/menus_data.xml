@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.1.1" created="2015-02-24 09:10" -->
+<!-- generator="WordPress/4.1.1" created="2015-02-24 09:46" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Ozone Cafe</title>
 	<link>http://wpb.grgr.red</link>
 	<description>&#34;一杯&#34;に込める思い。Ozone Cafe</description>
-	<pubDate>Tue, 24 Feb 2015 09:10:50 +0000</pubDate>
+	<pubDate>Tue, 24 Feb 2015 09:46:08 +0000</pubDate>
 	<language>ja</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://wpb.grgr.red</wp:base_site_url>
@@ -64,10 +64,6 @@
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="menucat" nicename="hot-drink"><![CDATA[ホットドリンク]]></category>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[32]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -78,6 +74,14 @@
 		<wp:postmeta>
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[%e3%83%96%e3%83%ac%e3%83%b3%e3%83%89%e3%82%b3%e3%83%bc%e3%83%92%e3%83%bc]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_description</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -108,16 +112,20 @@
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[33]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>menu_price</wp:meta_key>
 			<wp:meta_value><![CDATA[500]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[%e3%83%9b%e3%83%83%e3%83%88%e3%82%ab%e3%83%95%e3%82%a7%e3%82%aa%e3%83%ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_description</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -164,10 +172,6 @@
 			<wp:meta_key>_description</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[34]]></wp:meta_value>
-		</wp:postmeta>
 	</item>
 	<item>
 		<title>アイスコーヒー</title>
@@ -199,10 +203,6 @@
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[35]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_keywords</wp:meta_key>
@@ -243,10 +243,6 @@
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[36]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>menu_price</wp:meta_key>
@@ -290,10 +286,6 @@
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="menucat" nicename="sweets"><![CDATA[スイーツ]]></category>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[37]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -304,6 +296,14 @@
 		<wp:postmeta>
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[%e7%94%9f%e3%83%81%e3%83%a7%e3%82%b3%e3%81%ae%e3%82%bf%e3%83%ab%e3%83%88]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_description</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -334,16 +334,20 @@
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[38]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>menu_price</wp:meta_key>
 			<wp:meta_value><![CDATA[890]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[%e3%83%a9%e3%83%b3%e3%83%81%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_description</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -370,10 +374,6 @@
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="menucat" nicename="food"><![CDATA[フード]]></category>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[39]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>menu_price</wp:meta_key>
 			<wp:meta_value><![CDATA[890]]></wp:meta_value>
 		</wp:postmeta>
@@ -384,6 +384,14 @@
 		<wp:postmeta>
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[%e3%82%ab%e3%83%ab%e3%83%9c%e3%83%8a%e3%83%bc%e3%83%a9]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_description</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
