@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.1.1" created="2015-02-24 09:47" -->
+<!-- generator="WordPress/4.1.1" created="2015-02-24 14:20" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -28,8 +28,8 @@
 <channel>
 	<title>Ozone Cafe</title>
 	<link>http://localhost/wordpress</link>
-	<description>&#34;一杯&#34;に込める思い。Ozone Cafe</description>
-	<pubDate>Tue, 24 Feb 2015 09:47:52 +0000</pubDate>
+	<description>”一杯”に込める思い。Ozone Cafe</description>
+	<pubDate>Tue, 24 Feb 2015 14:20:50 +0000</pubDate>
 	<language>ja</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/wordpress</wp:base_site_url>
@@ -40,386 +40,322 @@
 	<wp:category><wp:term_id>2</wp:term_id><wp:category_nicename>diary</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[スタッフ日記]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename>news</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[新メニュー]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>%e6%9c%aa%e5%88%86%e9%a1%9e</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[未分類]]></wp:cat_name></wp:category>
-	<wp:tag><wp:term_id>10</wp:term_id><wp:tag_slug>%e3%83%81%e3%83%a7%e3%82%b3%e3%83%ac%e3%83%bc%e3%83%88</wp:tag_slug><wp:tag_name><![CDATA[チョコレート]]></wp:tag_name></wp:tag>
-	<wp:term><wp:term_id>7</wp:term_id><wp:term_taxonomy>menucat</wp:term_taxonomy><wp:term_slug>ice-drink</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[アイスドリンク]]></wp:term_name></wp:term>
-	<wp:term><wp:term_id>8</wp:term_id><wp:term_taxonomy>menucat</wp:term_taxonomy><wp:term_slug>sweets</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[スイーツ]]></wp:term_name></wp:term>
-	<wp:term><wp:term_id>9</wp:term_id><wp:term_taxonomy>menucat</wp:term_taxonomy><wp:term_slug>food</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[フード]]></wp:term_name></wp:term>
-	<wp:term><wp:term_id>6</wp:term_id><wp:term_taxonomy>menucat</wp:term_taxonomy><wp:term_slug>hot-drink</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[ホットドリンク]]></wp:term_name></wp:term>
-	<wp:term><wp:term_id>4</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3</wp:term_slug><wp:term_name><![CDATA[フッターナビゲーション]]></wp:term_name></wp:term>
-	<wp:term><wp:term_id>5</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3</wp:term_slug><wp:term_name><![CDATA[ヘッダーナビゲーション]]></wp:term_name></wp:term>
+	<wp:tag><wp:term_id>4</wp:term_id><wp:tag_slug>%e3%83%81%e3%83%a7%e3%82%b3%e3%83%ac%e3%83%bc%e3%83%88</wp:tag_slug><wp:tag_name><![CDATA[チョコレート]]></wp:tag_name></wp:tag>
+	<wp:term><wp:term_id>5</wp:term_id><wp:term_taxonomy>menucat</wp:term_taxonomy><wp:term_slug>ice-drink</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[アイスドリンク]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>6</wp:term_id><wp:term_taxonomy>menucat</wp:term_taxonomy><wp:term_slug>sweets</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[スイーツ]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>7</wp:term_id><wp:term_taxonomy>menucat</wp:term_taxonomy><wp:term_slug>food</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[フード]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>8</wp:term_id><wp:term_taxonomy>menucat</wp:term_taxonomy><wp:term_slug>hot-drink</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[ホットドリンク]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>9</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3</wp:term_slug><wp:term_name><![CDATA[フッターナビゲーション]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>10</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3</wp:term_slug><wp:term_name><![CDATA[ヘッダーナビゲーション]]></wp:term_name></wp:term>
 
 	<generator>http://wordpress.org/?v=4.1.1</generator>
 
 	<item>
-		<title>menu06-thumbnail01</title>
-		<link>http://localhost/wordpress/shop/taste/menu06-thumbnail01</link>
-		<pubDate>Tue, 24 Feb 2015 02:34:22 +0000</pubDate>
+		<title>SHOP</title>
+		<link>http://localhost/wordpress/archives/5</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:34 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu06-thumbnail01.jpg</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=5</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13</wp:post_id>
-		<wp:post_date>2015-02-24 11:34:22</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:34:22</wp:post_date_gmt>
+		<wp:post_id>5</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:34</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:34</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>menu06-thumbnail01</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>12</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
+		<wp:post_name>shop</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu06-thumbnail01.jpg</wp:attachment_url>
+		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/menu06-thumbnail01.jpg]]></wp:meta_value>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:500;s:4:"file";s:30:"2015/02/menu06-thumbnail01.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"menu06-thumbnail01-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:30:"menu06-thumbnail01-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[#]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>shop01-thumbnail01</title>
-		<link>http://localhost/wordpress/shop/taste/shop01-thumbnail01</link>
-		<pubDate>Tue, 24 Feb 2015 02:34:40 +0000</pubDate>
+		<title>MENUS</title>
+		<link>http://localhost/wordpress/archives/6</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:34 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/shop01-thumbnail01.png</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=6</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14</wp:post_id>
-		<wp:post_date>2015-02-24 11:34:40</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:34:40</wp:post_date_gmt>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:34</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:34</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>shop01-thumbnail01</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>12</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
+		<wp:post_name>menus</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/shop01-thumbnail01.png</wp:attachment_url>
+		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/shop01-thumbnail01.png]]></wp:meta_value>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:333;s:4:"file";s:30:"2015/02/shop01-thumbnail01.png";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"shop01-thumbnail01-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:30:"shop01-thumbnail01-300x200.png";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[6]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://localhost/wordpress/menus]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>taste01-thumbnail01</title>
-		<link>http://localhost/wordpress/shop/taste/taste01-thumbnail01</link>
-		<pubDate>Tue, 24 Feb 2015 02:37:52 +0000</pubDate>
+		<title>RECRUIT</title>
+		<link>http://localhost/wordpress/archives/7</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:35 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/taste01-thumbnail01.png</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=7</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>16</wp:post_id>
-		<wp:post_date>2015-02-24 11:37:52</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:37:52</wp:post_date_gmt>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:35</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:35</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>taste01-thumbnail01</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>12</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
+		<wp:post_name>recruit</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/taste01-thumbnail01.png</wp:attachment_url>
+		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/taste01-thumbnail01.png]]></wp:meta_value>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:725;s:6:"height";i:199;s:4:"file";s:31:"2015/02/taste01-thumbnail01.png";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:31:"taste01-thumbnail01-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:30:"taste01-thumbnail01-300x82.png";s:5:"width";i:300;s:6:"height";i:82;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[7]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[#]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>btn-entry-form</title>
-		<link>http://localhost/wordpress/recruit/btn-entry-form</link>
-		<pubDate>Tue, 24 Feb 2015 02:39:08 +0000</pubDate>
+		<title>メニュー</title>
+		<link>http://localhost/wordpress/archives/8</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:35 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/btn-entry-form.png</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=8</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>19</wp:post_id>
-		<wp:post_date>2015-02-24 11:39:08</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:39:08</wp:post_date_gmt>
+		<wp:post_id>8</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:35</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:35</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>btn-entry-form</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>18</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
+		<wp:post_name>%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/btn-entry-form.png</wp:attachment_url>
+		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/btn-entry-form.png]]></wp:meta_value>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:375;s:6:"height";i:78;s:4:"file";s:26:"2015/02/btn-entry-form.png";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:25:"btn-entry-form-150x78.png";s:5:"width";i:150;s:6:"height";i:78;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:25:"btn-entry-form-300x62.png";s:5:"width";i:300;s:6:"height";i:62;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[8]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://localhost/wordpress/menus/]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>menu01-thumbnail01</title>
-		<link>http://localhost/wordpress/menus/menu01/menu01-thumbnail01</link>
-		<pubDate>Tue, 24 Feb 2015 02:44:02 +0000</pubDate>
+		<title>ブレンドコーヒー</title>
+		<link>http://localhost/wordpress/menus/menu01</link>
+		<pubDate>Tue, 24 Feb 2015 02:44:40 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu01-thumbnail01.jpg</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=31</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[ブラジルから直輸入した自家焙煎のコーヒー豆を、注文を受けてから専用のミルで挽き、1杯ずつネルドリップしています。<br>
+苦さと酸味が程よいバランスで楽しめる、中深煎りのコーヒーです。]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>32</wp:post_id>
-		<wp:post_date>2015-02-24 11:44:02</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:44:02</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>menu01-thumbnail01</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>31</wp:post_parent>
+		<wp:post_id>31</wp:post_id>
+		<wp:post_date>2015-02-24 11:00:08</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 02:44:40</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>menu01</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
+		<wp:post_type>menus</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu01-thumbnail01.jpg</wp:attachment_url>
+		<category domain="menucat" nicename="hot-drink"><![CDATA[ホットドリンク]]></category>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/menu01-thumbnail01.jpg]]></wp:meta_value>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:500;s:4:"file";s:30:"2015/02/menu01-thumbnail01.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"menu01-thumbnail01-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:30:"menu01-thumbnail01-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:30:"menu01-thumbnail01-175x175.jpg";s:5:"width";i:175;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+			<wp:meta_key>menu_price</wp:meta_key>
+			<wp:meta_value><![CDATA[450]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e3%83%96%e3%83%ac%e3%83%b3%e3%83%89%e3%82%b3%e3%83%bc%e3%83%92%e3%83%bc]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_description</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>menu02-thumbnail01</title>
-		<link>http://localhost/wordpress/menus/menu01/menu02-thumbnail01</link>
-		<pubDate>Tue, 24 Feb 2015 02:44:06 +0000</pubDate>
+		<title>ホットカフェオレ</title>
+		<link>http://localhost/wordpress/menus/menu02</link>
+		<pubDate>Tue, 24 Feb 2015 02:45:09 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu02-thumbnail01.png</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=40</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[カフェオレ専用の豆を使用し、マイルドな味わいに仕上げました。<br>
+北海道の牧場で取れたフレッシュな牛乳との相性もバッチリです。]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>33</wp:post_id>
-		<wp:post_date>2015-02-24 11:44:06</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:44:06</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>menu02-thumbnail01</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>31</wp:post_parent>
+		<wp:post_id>40</wp:post_id>
+		<wp:post_date>2015-02-24 11:00:07</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 02:45:09</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>menu02</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
+		<wp:post_type>menus</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu02-thumbnail01.png</wp:attachment_url>
+		<category domain="menucat" nicename="hot-drink"><![CDATA[ホットドリンク]]></category>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/menu02-thumbnail01.png]]></wp:meta_value>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:500;s:4:"file";s:30:"2015/02/menu02-thumbnail01.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"menu02-thumbnail01-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:30:"menu02-thumbnail01-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:30:"menu02-thumbnail01-175x175.png";s:5:"width";i:175;s:6:"height";i:175;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>menu03-thumbnail01</title>
-		<link>http://localhost/wordpress/menus/menu01/menu03-thumbnail01</link>
-		<pubDate>Tue, 24 Feb 2015 02:44:06 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu03-thumbnail01.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>34</wp:post_id>
-		<wp:post_date>2015-02-24 11:44:06</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:44:06</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>menu03-thumbnail01</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>31</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu03-thumbnail01.jpg</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/menu03-thumbnail01.jpg]]></wp:meta_value>
+			<wp:meta_key>menu_price</wp:meta_key>
+			<wp:meta_value><![CDATA[500]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:500;s:4:"file";s:30:"2015/02/menu03-thumbnail01.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"menu03-thumbnail01-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:30:"menu03-thumbnail01-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:30:"menu03-thumbnail01-175x175.jpg";s:5:"width";i:175;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>menu04-thumbnail01</title>
-		<link>http://localhost/wordpress/menus/menu01/menu04-thumbnail01</link>
-		<pubDate>Tue, 24 Feb 2015 02:44:07 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu04-thumbnail01.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>35</wp:post_id>
-		<wp:post_date>2015-02-24 11:44:07</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:44:07</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>menu04-thumbnail01</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>31</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu04-thumbnail01.jpg</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/menu04-thumbnail01.jpg]]></wp:meta_value>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[%e3%83%9b%e3%83%83%e3%83%88%e3%82%ab%e3%83%95%e3%82%a7%e3%82%aa%e3%83%ac]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:500;s:4:"file";s:30:"2015/02/menu04-thumbnail01.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"menu04-thumbnail01-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:30:"menu04-thumbnail01-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:30:"menu04-thumbnail01-175x175.jpg";s:5:"width";i:175;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>menu05-thumbnail01</title>
-		<link>http://localhost/wordpress/menus/menu01/menu05-thumbnail01</link>
-		<pubDate>Tue, 24 Feb 2015 02:44:07 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu05-thumbnail01.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>36</wp:post_id>
-		<wp:post_date>2015-02-24 11:44:07</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:44:07</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>menu05-thumbnail01</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>31</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu05-thumbnail01.jpg</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/menu05-thumbnail01.jpg]]></wp:meta_value>
+			<wp:meta_key>_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:500;s:4:"file";s:30:"2015/02/menu05-thumbnail01.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"menu05-thumbnail01-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:30:"menu05-thumbnail01-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:30:"menu05-thumbnail01-175x175.jpg";s:5:"width";i:175;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>menu06-thumbnail01</title>
-		<link>http://localhost/wordpress/menus/menu01/menu06-thumbnail01-2</link>
-		<pubDate>Tue, 24 Feb 2015 02:44:08 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu06-thumbnail011.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>37</wp:post_id>
-		<wp:post_date>2015-02-24 11:44:08</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:44:08</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>menu06-thumbnail01-2</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>31</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu06-thumbnail011.jpg</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/menu06-thumbnail011.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:500;s:4:"file";s:31:"2015/02/menu06-thumbnail011.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:31:"menu06-thumbnail011-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:31:"menu06-thumbnail011-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:31:"menu06-thumbnail011-175x175.jpg";s:5:"width";i:175;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>menu07-thumbnail01</title>
-		<link>http://localhost/wordpress/menus/menu01/menu07-thumbnail01</link>
-		<pubDate>Tue, 24 Feb 2015 02:44:08 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu07-thumbnail01.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>38</wp:post_id>
-		<wp:post_date>2015-02-24 11:44:08</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:44:08</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>menu07-thumbnail01</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>31</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu07-thumbnail01.jpg</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/menu07-thumbnail01.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:500;s:4:"file";s:30:"2015/02/menu07-thumbnail01.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"menu07-thumbnail01-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:30:"menu07-thumbnail01-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:30:"menu07-thumbnail01-175x175.jpg";s:5:"width";i:175;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>menu08-thumbnail01</title>
-		<link>http://localhost/wordpress/menus/menu01/menu08-thumbnail01</link>
-		<pubDate>Tue, 24 Feb 2015 02:44:09 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/menu08-thumbnail01.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>39</wp:post_id>
-		<wp:post_date>2015-02-24 11:44:09</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:44:09</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>menu08-thumbnail01</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>31</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/menu08-thumbnail01.jpg</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/menu08-thumbnail01.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:500;s:4:"file";s:30:"2015/02/menu08-thumbnail01.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"menu08-thumbnail01-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:30:"menu08-thumbnail01-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:30:"menu08-thumbnail01-175x175.jpg";s:5:"width";i:175;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+			<wp:meta_key>_description</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -689,1045 +625,7 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>main-visual</title>
-		<link>http://localhost/wordpress/?attachment_id=60</link>
-		<pubDate>Tue, 24 Feb 2015 02:55:10 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/main-visual.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>60</wp:post_id>
-		<wp:post_date>2015-02-24 11:55:10</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:55:10</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>main-visual</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/main-visual.jpg</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/main-visual.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1500;s:6:"height";i:409;s:4:"file";s:23:"2015/02/main-visual.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:23:"main-visual-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:22:"main-visual-300x82.jpg";s:5:"width";i:300;s:6:"height";i:82;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:24:"main-visual-1024x279.jpg";s:5:"width";i:1024;s:6:"height";i:279;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:22:"main-visual-175x48.jpg";s:5:"width";i:175;s:6:"height";i:48;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_custom_header_last_used_ozonecafe</wp:meta_key>
-			<wp:meta_value><![CDATA[1424746518]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_is_custom_header</wp:meta_key>
-			<wp:meta_value><![CDATA[ozonecafe]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>article02-thumbnail01</title>
-		<link>http://localhost/wordpress/archives/29/article02-thumbnail01</link>
-		<pubDate>Tue, 24 Feb 2015 03:58:51 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2015/02/article02-thumbnail01.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>78</wp:post_id>
-		<wp:post_date>2015-02-24 12:58:51</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 03:58:51</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>article02-thumbnail01</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>29</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2015/02/article02-thumbnail01.png</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2015/02/article02-thumbnail01.png]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:175;s:6:"height";i:97;s:4:"file";s:33:"2015/02/article02-thumbnail01.png";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:32:"article02-thumbnail01-150x97.png";s:5:"width";i:150;s:6:"height";i:97;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:32:"article02-thumbnail01-175x97.png";s:5:"width";i:175;s:6:"height";i:97;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>ブレンドコーヒー</title>
-		<link>http://localhost/wordpress/menus/menu01</link>
-		<pubDate>Tue, 24 Feb 2015 02:44:40 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=31</guid>
-		<description></description>
-		<content:encoded><![CDATA[ブラジルから直輸入した自家焙煎のコーヒー豆を、注文を受けてから専用のミルで挽き、1杯ずつネルドリップしています。<br>
-苦さと酸味が程よいバランスで楽しめる、中深煎りのコーヒーです。]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>31</wp:post_id>
-		<wp:post_date>2015-02-24 11:00:08</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:44:40</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>menu01</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>menus</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="menucat" nicename="hot-drink"><![CDATA[ホットドリンク]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>menu_price</wp:meta_key>
-			<wp:meta_value><![CDATA[450]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_old_slug</wp:meta_key>
-			<wp:meta_value><![CDATA[%e3%83%96%e3%83%ac%e3%83%b3%e3%83%89%e3%82%b3%e3%83%bc%e3%83%92%e3%83%bc]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_description</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>ホットカフェオレ</title>
-		<link>http://localhost/wordpress/menus/menu02</link>
-		<pubDate>Tue, 24 Feb 2015 02:45:09 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?post_type=menus&#038;p=40</guid>
-		<description></description>
-		<content:encoded><![CDATA[カフェオレ専用の豆を使用し、マイルドな味わいに仕上げました。<br>
-北海道の牧場で取れたフレッシュな牛乳との相性もバッチリです。]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>40</wp:post_id>
-		<wp:post_date>2015-02-24 11:00:07</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:45:09</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>menu02</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>menus</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="menucat" nicename="hot-drink"><![CDATA[ホットドリンク]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>menu_price</wp:meta_key>
-			<wp:meta_value><![CDATA[500]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_old_slug</wp:meta_key>
-			<wp:meta_value><![CDATA[%e3%83%9b%e3%83%83%e3%83%88%e3%82%ab%e3%83%95%e3%82%a7%e3%82%aa%e3%83%ac]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_description</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=47</link>
-		<pubDate>Tue, 24 Feb 2015 02:49:32 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=47</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>47</wp:post_id>
-		<wp:post_date>2015-02-24 11:49:32</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:49:32</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>47</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[25]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=48</link>
-		<pubDate>Tue, 24 Feb 2015 02:49:32 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=48</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>48</wp:post_id>
-		<wp:post_date>2015-02-24 11:49:32</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:49:32</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>48</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>8</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[55]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[18]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>応募フォーム</title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=49</link>
-		<pubDate>Tue, 24 Feb 2015 02:49:32 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=49</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>49</wp:post_id>
-		<wp:post_date>2015-02-24 11:49:32</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:49:32</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>49</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>18</wp:post_parent>
-		<wp:menu_order>9</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[55]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[23]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=50</link>
-		<pubDate>Tue, 24 Feb 2015 02:49:32 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=50</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>50</wp:post_id>
-		<wp:post_date>2015-02-24 11:49:32</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:49:32</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>shop</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[53]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[9]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>こだわり</title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=51</link>
-		<pubDate>Tue, 24 Feb 2015 02:49:32 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=51</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>51</wp:post_id>
-		<wp:post_date>2015-02-24 11:49:32</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:49:32</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>51</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[53]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[12]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>歴史</title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=52</link>
-		<pubDate>Tue, 24 Feb 2015 02:49:32 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=52</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>52</wp:post_id>
-		<wp:post_date>2015-02-24 11:49:32</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:49:32</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>52</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[53]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[21]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>SHOP</title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=53</link>
-		<pubDate>Tue, 24 Feb 2015 02:52:23 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=53</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>53</wp:post_id>
-		<wp:post_date>2015-02-24 11:52:23</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:52:23</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>shop-2</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[53]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[#]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>MENUS</title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=54</link>
-		<pubDate>Tue, 24 Feb 2015 02:53:36 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=54</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>54</wp:post_id>
-		<wp:post_date>2015-02-24 11:53:36</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:53:36</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>menus</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>6</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[54]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://localhost/wordpress/menus]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>RECRUIT</title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=55</link>
-		<pubDate>Tue, 24 Feb 2015 02:53:36 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=55</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>55</wp:post_id>
-		<wp:post_date>2015-02-24 11:53:36</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:53:36</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>recruit</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>7</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[55]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[#]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>BLOG</title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=59</link>
-		<pubDate>Tue, 24 Feb 2015 02:54:13 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=59</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>59</wp:post_id>
-		<wp:post_date>2015-02-24 11:54:13</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:54:13</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>blog</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>10</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[59]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://localhost/wordpress/blog/]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>ホーム</title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=61</link>
-		<pubDate>Tue, 24 Feb 2015 02:57:41 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=61</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>61</wp:post_id>
-		<wp:post_date>2015-02-24 11:57:41</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:57:41</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e3%83%9b%e3%83%bc%e3%83%a0</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[25]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>求人応募</title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=62</link>
-		<pubDate>Tue, 24 Feb 2015 02:57:41 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=62</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>62</wp:post_id>
-		<wp:post_date>2015-02-24 11:57:41</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:57:41</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e6%b1%82%e4%ba%ba%e5%bf%9c%e5%8b%9f</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>6</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[23]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=64</link>
-		<pubDate>Tue, 24 Feb 2015 02:57:41 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=64</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>64</wp:post_id>
-		<wp:post_date>2015-02-24 11:57:41</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:57:41</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>64</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[18]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=66</link>
-		<pubDate>Tue, 24 Feb 2015 02:57:41 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=66</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>66</wp:post_id>
-		<wp:post_date>2015-02-24 11:57:41</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:57:41</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>66</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[9]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>ブログ</title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=67</link>
-		<pubDate>Tue, 24 Feb 2015 02:57:41 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=67</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>67</wp:post_id>
-		<wp:post_date>2015-02-24 11:57:41</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:57:41</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e3%83%96%e3%83%ad%e3%82%b0</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[67]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://localhost/wordpress/blog/]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>メニュー</title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=68</link>
-		<pubDate>Tue, 24 Feb 2015 02:57:41 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=68</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>68</wp:post_id>
-		<wp:post_date>2015-02-24 11:57:41</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 02:57:41</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[68]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://localhost/wordpress/menus/]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
+		<title>スタッフ応募フォーム</title>
 		<link>http://localhost/wordpress/archives/mw-wp-form/69</link>
 		<pubDate>Tue, 24 Feb 2015 02:59:42 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
@@ -1786,132 +684,392 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>mw-wp-form</wp:meta_key>
-			<wp:meta_value><![CDATA[a:25:{s:12:"mail_subject";s:39:"ご応募ありがとうございます";s:9:"mail_from";s:0:"";s:11:"mail_sender";s:0:"";s:12:"mail_content";s:447:"Ozone Cafeスタッフ募集へのご応募ありがとうございます。
-送信された内容は以下の通りです。
-
---------
-【お名前】{yourname}
-【ふりがな】{kana}
-【電話番号】{tel}
-【メールアドレス】{email}
-【希望職種】{jobtype}
-【その他連絡事項】
-{message}
---------
-
-担当者が折り返しご連絡いたしますので、しばらくお待ちください。
-
----
-Ozone Cafe";s:21:"automatic_reply_email";s:0:"";s:7:"mail_to";s:0:"";s:7:"mail_cc";s:0:"";s:8:"mail_bcc";s:0:"";s:18:"admin_mail_subject";s:39:"ご応募ありがとうございます";s:15:"admin_mail_from";s:0:"";s:17:"admin_mail_sender";s:0:"";s:18:"admin_mail_content";s:318:"Ozone Cafeスタッフ募集への応募がありました。
-送信された内容は以下の通りです。
-
---------
-【お名前】{yourname}
-【ふりがな】{kana}
-【電話番号】{tel}
-【メールアドレス】{email}
-【希望職種】{jobtype}
-【その他連絡事項】
-{message}
---------
-";s:11:"querystring";b:0;s:5:"usedb";s:1:"1";s:14:"akismet_author";s:0:"";s:20:"akismet_author_email";s:0:"";s:18:"akismet_author_url";s:0:"";s:16:"complete_message";s:281:"<h3>送信完了</h3>
-<p>お問い合わせありがとうございました。<br>
-担当者が内容を確認の上、改めてご連絡いたします。<br>
-今しばらくお待ちください。</p>
-<p>&raquo;<a href="/" title="HOME">トップページへ戻る</a></p>
-";s:9:"input_url";s:0:"";s:16:"confirmation_url";s:0:"";s:12:"complete_url";s:0:"";s:20:"validation_error_url";s:0:"";s:10:"validation";a:0:{}s:5:"style";s:0:"";s:6:"scroll";b:0;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>ご応募ありがとうございます</title>
-		<link>http://localhost/wordpress/archives/mwf_69/%e3%81%94%e5%bf%9c%e5%8b%9f%e3%81%82%e3%82%8a%e3%81%8c%e3%81%a8%e3%81%86%e3%81%94%e3%81%96%e3%81%84%e3%81%be%e3%81%99</link>
-		<pubDate>Tue, 24 Feb 2015 06:03:50 +0000</pubDate>
+		<title>求人応募</title>
+		<link>http://localhost/wordpress/archives/74</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:38 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/archives/mwf_69/%e3%81%94%e5%bf%9c%e5%8b%9f%e3%81%82%e3%82%8a%e3%81%8c%e3%81%a8%e3%81%86%e3%81%94%e3%81%96%e3%81%84%e3%81%be%e3%81%99</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=74</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>83</wp:post_id>
-		<wp:post_date>2015-02-24 15:03:50</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 06:03:50</wp:post_date_gmt>
+		<wp:post_id>74</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:38</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:38</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e3%81%94%e5%bf%9c%e5%8b%9f%e3%81%82%e3%82%8a%e3%81%8c%e3%81%a8%e3%81%86%e3%81%94%e3%81%96%e3%81%84%e3%81%be%e3%81%99</wp:post_name>
+		<wp:post_name>%e6%b1%82%e4%ba%ba%e5%bf%9c%e5%8b%9f</wp:post_name>
 		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>mwf_69</wp:post_type>
+		<wp:post_parent>18</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
 		<wp:postmeta>
-			<wp:meta_key>yourname</wp:meta_key>
-			<wp:meta_value><![CDATA[テスト]]></wp:meta_value>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>kana</wp:meta_key>
-			<wp:meta_value><![CDATA[テスト]]></wp:meta_value>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>tel</wp:meta_key>
-			<wp:meta_value><![CDATA[000-0000-0000]]></wp:meta_value>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[23]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>email</wp:meta_key>
-			<wp:meta_value><![CDATA[akeome1369@gmail.com]]></wp:meta_value>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>jobtype</wp:meta_key>
-			<wp:meta_value><![CDATA[ホールスタッフ]]></wp:meta_value>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>message</wp:meta_key>
-			<wp:meta_value><![CDATA[テスト]]></wp:meta_value>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>店舗案内</title>
-		<link>http://localhost/wordpress/shop</link>
-		<pubDate>Mon, 23 Feb 2015 17:40:01 +0000</pubDate>
+		<title></title>
+		<link>http://localhost/wordpress/archives/75</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:39 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?page_id=9</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=75</guid>
 		<description></description>
-		<content:encoded><![CDATA[<h2>明るく開放感のある空間で、こだわりのコーヒーとお菓子をどうぞ</h2>
-<p>Ozone Cafeはこの地域の皆様に愛されて40年。<br>
-2015年3月に店舗を全面リニューアルし、より明るくさわやかな空間に生まれ変わりました。<br>
-もちろん、コーヒーやフードメニューへのこだわりは変わりません。<br>
-スタッフ一同、みなさまのご来店を心よりお待ちしています。</p>
-<h3>営業案内</h3>
-<h4>住所</h4>
-<p>〒000-0000 ○○県△△市□□町1-2-3 </p>
-<h4>TEL</h4>
-<p>000-000-0000</p>
-<h4>営業時間</h4>
-<p>09:00～20:00</p>
-<h4>定休日</h4>
-<p>毎週水曜日</p>
-<h3 id="access">アクセス</h3>
-<h4>電車でお越しの方</h4>
-<p>地下鉄△△線 □□駅（3番出口）より徒歩2分</p>
-<h4>お車でお越しの方</h4>
-<p>国道○号線 □□交差点北すぐ<br>
-駐車場は店舗前に6台分ございます。</p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4824051080996!2d139.72143439999996!3d35.68974474999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ced8c86ba09%3A0x78592d40799309cc!2z44CSMTYwLTAwMDYg5p2x5Lqs6YO95paw5a6_5Yy66Iif55S677yV4oiS77yYIOiIn-eUuu-8leeVquODk-ODqw!5e0!3m2!1sja!2sjp!4v1412823368703" width="726" height="400" frameborder="0" style="border:0"></iframe>]]></content:encoded>
+		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>9</wp:post_id>
-		<wp:post_date>2015-02-24 02:40:01</wp:post_date>
-		<wp:post_date_gmt>2015-02-23 17:40:01</wp:post_date_gmt>
+		<wp:post_id>75</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:39</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:39</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>shop</wp:post_name>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>75</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[18]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://localhost/wordpress/archives/76</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:39 +0000</pubDate>
+		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=76</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>76</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:39</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:39</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>76</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[72]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://localhost/wordpress/archives/77</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:39 +0000</pubDate>
+		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=77</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>77</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:39</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:39</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>77</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[57]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://localhost/wordpress/archives/78</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:39 +0000</pubDate>
+		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=78</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>78</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:39</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:39</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>78</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[73]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>BLOG</title>
+		<link>http://localhost/wordpress/archives/79</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:40 +0000</pubDate>
+		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=79</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>79</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:40</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:40</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>blog</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>10</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[57]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://localhost/wordpress/archives/80</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:40 +0000</pubDate>
+		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=80</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>80</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:40</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:40</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>80</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
+		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
 		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[25]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1952,7 +1110,7 @@ Ozone Cafe";s:21:"automatic_reply_email";s:0:"";s:7:"mail_to";s:0:"";s:7:"mail_c
 		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>taste</wp:post_name>
 		<wp:status>publish</wp:status>
-		<wp:post_parent>9</wp:post_parent>
+		<wp:post_parent>72</wp:post_parent>
 		<wp:menu_order>2</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
@@ -2093,7 +1251,7 @@ Ozone Cafe";s:21:"automatic_reply_email";s:0:"";s:7:"mail_to";s:0:"";s:7:"mail_c
 		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>history</wp:post_name>
 		<wp:status>publish</wp:status>
-		<wp:post_parent>9</wp:post_parent>
+		<wp:post_parent>72</wp:post_parent>
 		<wp:menu_order>3</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
@@ -2285,6 +1443,52 @@ Ozone Cafe";s:21:"automatic_reply_email";s:0:"";s:7:"mail_to";s:0:"";s:7:"mail_c
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>店舗案内</title>
+		<link>http://localhost/wordpress/shop</link>
+		<pubDate>Mon, 23 Feb 2015 17:40:01 +0000</pubDate>
+		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=9</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>明るく開放感のある空間で、こだわりのコーヒーとお菓子をどうぞ</h2>
+<p>Ozone Cafeはこの地域の皆様に愛されて40年。<br>
+2015年3月に店舗を全面リニューアルし、より明るくさわやかな空間に生まれ変わりました。<br>
+もちろん、コーヒーやフードメニューへのこだわりは変わりません。<br>
+スタッフ一同、みなさまのご来店を心よりお待ちしています。</p>
+<h3>営業案内</h3>
+<h4>住所</h4>
+<p>〒000-0000 ○○県△△市□□町1-2-3 </p>
+<h4>TEL</h4>
+<p>000-000-0000</p>
+<h4>営業時間</h4>
+<p>09:00～20:00</p>
+<h4>定休日</h4>
+<p>毎週水曜日</p>
+<h3 id="access">アクセス</h3>
+<h4>電車でお越しの方</h4>
+<p>地下鉄△△線 □□駅（3番出口）より徒歩2分</p>
+<h4>お車でお越しの方</h4>
+<p>国道○号線 □□交差点北すぐ<br>
+駐車場は店舗前に6台分ございます。</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4824051080996!2d139.72143439999996!3d35.68974474999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ced8c86ba09%3A0x78592d40799309cc!2z44CSMTYwLTAwMDYg5p2x5Lqs6YO95paw5a6_5Yy66Iif55S677yV4oiS77yYIOiIn-eUuu-8leeVquODk-ODqw!5e0!3m2!1sja!2sjp!4v1412823368703" width="726" height="400" frameborder="0" style="border:0"></iframe>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>72</wp:post_id>
+		<wp:post_date>2015-02-24 02:40:01</wp:post_date>
+		<wp:post_date_gmt>2015-02-23 17:40:01</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>shop</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>サイトマップ</title>
 		<link>http://localhost/wordpress/sitemap</link>
 		<pubDate>Mon, 23 Feb 2015 17:40:07 +0000</pubDate>
@@ -2293,7 +1497,7 @@ Ozone Cafe";s:21:"automatic_reply_email";s:0:"";s:7:"mail_to";s:0:"";s:7:"mail_c
 		<description></description>
 		<content:encoded><![CDATA[[sitemap]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>71</wp:post_id>
+		<wp:post_id>73</wp:post_id>
 		<wp:post_date>2015-02-24 02:40:07</wp:post_date>
 		<wp:post_date_gmt>2015-02-23 17:40:07</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
@@ -2323,42 +1527,42 @@ Ozone Cafe";s:21:"automatic_reply_email";s:0:"";s:7:"mail_to";s:0:"";s:7:"mail_c
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>サイトマップ</title>
-		<link>http://localhost/wordpress/?post_type=nav_menu_item&#038;p=73</link>
-		<pubDate>Tue, 24 Feb 2015 03:05:10 +0000</pubDate>
+		<title></title>
+		<link>http://localhost/wordpress/archives/81</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:40 +0000</pubDate>
 		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=73</guid>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=81</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>73</wp:post_id>
-		<wp:post_date>2015-02-24 12:05:10</wp:post_date>
-		<wp:post_date_gmt>2015-02-24 03:05:10</wp:post_date_gmt>
+		<wp:post_id>81</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:40</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:40</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>%e3%82%b5%e3%82%a4%e3%83%88%e3%83%9e%e3%83%83%e3%83%97</wp:post_name>
+		<wp:post_name>81</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>7</wp:menu_order>
+		<wp:menu_order>8</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
+		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+			<wp:meta_value><![CDATA[7]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[73]]></wp:meta_value>
+			<wp:meta_value><![CDATA[18]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_target</wp:meta_key>
@@ -2374,7 +1578,282 @@ Ozone Cafe";s:21:"automatic_reply_email";s:0:"";s:7:"mail_to";s:0:"";s:7:"mail_c
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://localhost/wordpress/sitemap/]]></wp:meta_value>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>応募フォーム</title>
+		<link>http://localhost/wordpress/archives/82</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:41 +0000</pubDate>
+		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=82</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>82</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:41</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:41</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>%e5%bf%9c%e5%8b%9f%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>18</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[7]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[23]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://localhost/wordpress/archives/83</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:41 +0000</pubDate>
+		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=83</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>83</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:41</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:41</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>83</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[72]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>こだわり</title>
+		<link>http://localhost/wordpress/archives/84</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:41 +0000</pubDate>
+		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=84</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>84</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:41</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:41</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>%e3%81%93%e3%81%a0%e3%82%8f%e3%82%8a</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[12]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>歴史</title>
+		<link>http://localhost/wordpress/archives/85</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:42 +0000</pubDate>
+		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=85</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>85</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:42</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:42</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>%e6%ad%b4%e5%8f%b2</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[ヘッダーナビゲーション]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[21]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>ホーム</title>
+		<link>http://localhost/wordpress/archives/86</link>
+		<pubDate>Tue, 24 Feb 2015 14:16:42 +0000</pubDate>
+		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=86</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>86</wp:post_id>
+		<wp:post_date>2015-02-24 23:16:42</wp:post_date>
+		<wp:post_date_gmt>2015-02-24 14:16:42</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>%e3%83%9b%e3%83%bc%e3%83%a0</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3"><![CDATA[フッターナビゲーション]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[25]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>

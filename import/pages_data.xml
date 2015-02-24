@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.1.1" created="2015-02-24 09:47" -->
+<!-- generator="WordPress/4.1.1" created="2015-02-24 14:21" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -28,8 +28,8 @@
 <channel>
 	<title>Ozone Cafe</title>
 	<link>http://localhost/wordpress</link>
-	<description>&#34;一杯&#34;に込める思い。Ozone Cafe</description>
-	<pubDate>Tue, 24 Feb 2015 09:47:31 +0000</pubDate>
+	<description>”一杯”に込める思い。Ozone Cafe</description>
+	<pubDate>Tue, 24 Feb 2015 14:21:10 +0000</pubDate>
 	<language>ja</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/wordpress</wp:base_site_url>
@@ -40,52 +40,6 @@
 
 	<generator>http://wordpress.org/?v=4.1.1</generator>
 
-	<item>
-		<title>店舗案内</title>
-		<link>http://localhost/wordpress/shop</link>
-		<pubDate>Mon, 23 Feb 2015 17:40:01 +0000</pubDate>
-		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?page_id=9</guid>
-		<description></description>
-		<content:encoded><![CDATA[<h2>明るく開放感のある空間で、こだわりのコーヒーとお菓子をどうぞ</h2>
-<p>Ozone Cafeはこの地域の皆様に愛されて40年。<br>
-2015年3月に店舗を全面リニューアルし、より明るくさわやかな空間に生まれ変わりました。<br>
-もちろん、コーヒーやフードメニューへのこだわりは変わりません。<br>
-スタッフ一同、みなさまのご来店を心よりお待ちしています。</p>
-<h3>営業案内</h3>
-<h4>住所</h4>
-<p>〒000-0000 ○○県△△市□□町1-2-3 </p>
-<h4>TEL</h4>
-<p>000-000-0000</p>
-<h4>営業時間</h4>
-<p>09:00～20:00</p>
-<h4>定休日</h4>
-<p>毎週水曜日</p>
-<h3 id="access">アクセス</h3>
-<h4>電車でお越しの方</h4>
-<p>地下鉄△△線 □□駅（3番出口）より徒歩2分</p>
-<h4>お車でお越しの方</h4>
-<p>国道○号線 □□交差点北すぐ<br>
-駐車場は店舗前に6台分ございます。</p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4824051080996!2d139.72143439999996!3d35.68974474999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ced8c86ba09%3A0x78592d40799309cc!2z44CSMTYwLTAwMDYg5p2x5Lqs6YO95paw5a6_5Yy66Iif55S677yV4oiS77yYIOiIn-eUuu-8leeVquODk-ODqw!5e0!3m2!1sja!2sjp!4v1412823368703" width="726" height="400" frameborder="0" style="border:0"></iframe>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>9</wp:post_id>
-		<wp:post_date>2015-02-24 02:40:01</wp:post_date>
-		<wp:post_date_gmt>2015-02-23 17:40:01</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>shop</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
 	<item>
 		<title>当店のこだわり</title>
 		<link>http://localhost/wordpress/shop/taste</link>
@@ -124,7 +78,7 @@
 		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>taste</wp:post_name>
 		<wp:status>publish</wp:status>
-		<wp:post_parent>9</wp:post_parent>
+		<wp:post_parent>72</wp:post_parent>
 		<wp:menu_order>2</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
@@ -265,7 +219,7 @@
 		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>history</wp:post_name>
 		<wp:status>publish</wp:status>
-		<wp:post_parent>9</wp:post_parent>
+		<wp:post_parent>72</wp:post_parent>
 		<wp:menu_order>3</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
@@ -380,6 +334,52 @@
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>店舗案内</title>
+		<link>http://localhost/wordpress/shop</link>
+		<pubDate>Mon, 23 Feb 2015 17:40:01 +0000</pubDate>
+		<dc:creator><![CDATA[ozone_nomura]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=9</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>明るく開放感のある空間で、こだわりのコーヒーとお菓子をどうぞ</h2>
+<p>Ozone Cafeはこの地域の皆様に愛されて40年。<br>
+2015年3月に店舗を全面リニューアルし、より明るくさわやかな空間に生まれ変わりました。<br>
+もちろん、コーヒーやフードメニューへのこだわりは変わりません。<br>
+スタッフ一同、みなさまのご来店を心よりお待ちしています。</p>
+<h3>営業案内</h3>
+<h4>住所</h4>
+<p>〒000-0000 ○○県△△市□□町1-2-3 </p>
+<h4>TEL</h4>
+<p>000-000-0000</p>
+<h4>営業時間</h4>
+<p>09:00～20:00</p>
+<h4>定休日</h4>
+<p>毎週水曜日</p>
+<h3 id="access">アクセス</h3>
+<h4>電車でお越しの方</h4>
+<p>地下鉄△△線 □□駅（3番出口）より徒歩2分</p>
+<h4>お車でお越しの方</h4>
+<p>国道○号線 □□交差点北すぐ<br>
+駐車場は店舗前に6台分ございます。</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4824051080996!2d139.72143439999996!3d35.68974474999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ced8c86ba09%3A0x78592d40799309cc!2z44CSMTYwLTAwMDYg5p2x5Lqs6YO95paw5a6_5Yy66Iif55S677yV4oiS77yYIOiIn-eUuu-8leeVquODk-ODqw!5e0!3m2!1sja!2sjp!4v1412823368703" width="726" height="400" frameborder="0" style="border:0"></iframe>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>72</wp:post_id>
+		<wp:post_date>2015-02-24 02:40:01</wp:post_date>
+		<wp:post_date_gmt>2015-02-23 17:40:01</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>shop</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>サイトマップ</title>
 		<link>http://localhost/wordpress/sitemap</link>
 		<pubDate>Mon, 23 Feb 2015 17:40:07 +0000</pubDate>
@@ -388,7 +388,7 @@
 		<description></description>
 		<content:encoded><![CDATA[[sitemap]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>71</wp:post_id>
+		<wp:post_id>73</wp:post_id>
 		<wp:post_date>2015-02-24 02:40:07</wp:post_date>
 		<wp:post_date_gmt>2015-02-23 17:40:07</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
