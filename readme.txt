@@ -25,7 +25,10 @@ import (※作成するWordPressサイトのコンテンツ用のインポート
 
 contents（※サイト制作中にWordPressの投稿・固定ページとして登録するコンテンツ部分のみをまとめたファイル）
 
-(※chapter01,02にサンプルはありません)
+(※chapter01にサンプルはありません)
+
+chapter02 (※lesson04, 05にサンプルはありません)
+ -lesson06（※ギャラリー用のサンプル画像）
 
 chapter03 (※lesson09にサンプルはありません)
  -lesson07
