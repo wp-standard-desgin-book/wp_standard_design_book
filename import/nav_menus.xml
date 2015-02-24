@@ -1274,11 +1274,3 @@
 	</item>
 </channel>
 </rss>
-
-Warning: Cannot modify header information - headers already sent by (output started at /var/www/vhosts/wpb.grgr.red/wp-content/plugins/menu-exporter/menu-exporter.php:231) in /var/www/vhosts/wpb.grgr.red/wp-admin/includes/export.php on line 46
-
-Warning: Cannot modify header information - headers already sent by (output started at /var/www/vhosts/wpb.grgr.red/wp-content/plugins/menu-exporter/menu-exporter.php:231) in /var/www/vhosts/wpb.grgr.red/wp-admin/includes/export.php on line 47
-
-Warning: Cannot modify header information - headers already sent by (output started at /var/www/vhosts/wpb.grgr.red/wp-content/plugins/menu-exporter/menu-exporter.php:231) in /var/www/vhosts/wpb.grgr.red/wp-admin/includes/export.php on line 48
-
-Fatal error: Cannot redeclare wxr_cdata() (previously declared in /var/www/vhosts/wpb.grgr.red/wp-content/plugins/menu-exporter/menu-exporter.php:69) in /var/www/vhosts/wpb.grgr.red/wp-admin/includes/export.php on line 132
