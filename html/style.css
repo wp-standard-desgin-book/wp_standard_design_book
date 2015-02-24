@@ -571,6 +571,7 @@ table th {
     padding: 20px 0;
     color: #fff;
     background-color: #fff;
+    overflow: hidden;
 }
 
 .post-navigation .nav-links,
@@ -596,9 +597,7 @@ table th {
     .post-navigation .nav-links a,
     .paging-navigation .nav-links a {
         display: block;
-
         margin-right: auto;
-        margin-bottom: 24px;
         margin-left: auto;
     }
 }
@@ -687,6 +686,12 @@ ul.bread_crumb li.sub:before {
     content:' > ';
 }
 
+@media screen and (max-width: 640px) {
+    ul.bread_crumb {
+        padding-left: 20px;
+    }
+}
+
 /**
  * 5.0 - メニューコンテンツ
  */
@@ -720,6 +725,10 @@ ul.bread_crumb li.sub:before {
     padding: 1.6em;
     border: 1px solid #e8e8e8;
     border-radius: 50%;
+}
+
+.menu-block .menu-desc{
+    min-height: 112px
 }
 
 .menu-block .menu-more a {
